@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://georg-cantor-gymnasium.de"
+baseURL = "https://quizzical-liskov-6b5afd.netlify.app/"
 title = "Georg-Cantor-Gymnasium"
 theme = "educenter-hugo"
 # post pagination
