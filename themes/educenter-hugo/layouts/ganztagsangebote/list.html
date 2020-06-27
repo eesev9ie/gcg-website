@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<!-- courses -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- course category list -->
+        <ul class="list-inline text-center filter-controls mb-5">
+          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
+          {{ $categories := slice }}
+          {{ range .Data.Pages }}
+          {{ $categories = $categories | append .Params.Category }}
+          {{ end }}
+          {{ range ( $categories | uniq ) }}
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "ganztagsangebote" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+  </div>
+</section>
+<!-- /courses -->
+
+{{ end }}

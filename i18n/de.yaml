@@ -1,0 +1,113 @@
+- id: read_more
+  translation: Mehr anzeigen
+
+- id: contact_form
+  translation: Kontaktformular
+
+- id: send
+  translation: Senden
+
+- id: contact_info
+  translation: Kontaktdaten
+
+- id: subscribe_newsletter
+  translation: Newsteller abbonieren
+
+- id: subscribe
+  translation: Abbonieren
+
+- id: contact_us
+  translation: Kontakt aufnehmen
+
+- id: latest_article
+  translation: Neuste Beiträge
+
+- id: categories
+  translation: Kategorien
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: Alles anzeigen
+
+- id: join_club
+  translation: Der AG beitreten
+
+- id: posted_by
+  translation: Geschrieben von
+
+- id: date
+  translation: Datum
+
+- id: time
+  translation: Zeit
+
+- id: category
+  translation: Kategorie
+
+- id: related_clubs
+  translation: Andere Arbeitsgemeinschaften
+
+- id: duration
+  translation: Datum
+
+- id: weekly
+  translation: Dauer
+
+- id: class
+  translation: Klasse(n)
+
+- id: teacher
+  translation: Leiter
+
+- id: location
+  translation: Ort
+
+- id: entry_fee
+  translation: Eintrittspreis
+
+- id: event_speaker
+  translation: Sprecher
+
+- id: more_event
+  translation: Weitere Termine
+
+- id: join
+  translation: Abbonieren
+
+- id: enter_email
+  translation: Ihre E-Mail Adresse eingeben ...
+
+- id: company
+  translation: Schule
+
+- id: links
+  translation: Links
+
+- id: courses
+  translation: Ganztagsangebote
+
+- id: courses_footer
+  translation: Ganztags- angebote
+
+- id: new_notice
+  translation: Wichtige Informationen
+
+- id: call
+  translation: Telefon
+
+- id: email
+  translation: E-Mail
+
+- id: all
+  translation: Alle
+
+- id: interest
+  translation: RÉSUMÉ DES ACTIVITÉS/INTÉRÊTS
+
+- id: our_teachers
+  translation: Nos enseignants
+
+- id: download
+  translation: Télécharger

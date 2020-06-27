@@ -1,0 +1,140 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/slide1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Eine Mathematisch-naturwissenschaftliche Spezialschule"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : "about"
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Ein Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : "about#primegymnasium"
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Ein Mitglied im Netzwerk Mathematisch-naturwissenschaftlicher Excellence-Center an Schulen (MINT-EC)"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : "about#mintec"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : false
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Bourses académiques"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Notre bureau"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Nos accomplissements"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Admission"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "À propos d’Educenter"
+  image : "images/about/about-us.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+
+
+  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  button:
+    enable : true
+    label : "En savoir plus"
+    link : "about"
+
+
+############################# Course ################################
+ganztagsangebote:
+  enable : true
+  title : "Unsere Ganztagsangebote"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Kontaktiere uns für weitere Informationen"
+  title : "Interessiert ?"
+  button:
+    enable : true
+    label : "Kontakt"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Über die Schule"
+  content : "Infos"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "Die nächsten Termine Termine"
+  # event item comes from "content/**/event" folder.
+
+
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "Schüler"
+      count : "575"
+
+    # funfact item loop
+    - name : "Lehrer"
+      count : "45"
+
+    # funfact item loop
+    - name : "Neue Schüler pro Jahr"
+      count : "72"
+
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Aktuelle Beiträge"
+  # blog item comes from "content/**/blog" folder.
