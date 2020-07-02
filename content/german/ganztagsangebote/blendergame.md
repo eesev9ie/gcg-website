@@ -60,4 +60,5 @@ Dabei kommt die Programmiersprache Python zum Einsatz, deren Grundladen auch erl
 
 In der AG werden wir mit folgenden Programmen arbeiten:
 
- * [Blender](https://blender.org)
+ * [UPGBE](https://upbge.org)(Da die Weiterentwicklung der Blender Game Engine eingestellt wurde, wird diese vom Community-Projekt UPBGE weiterentwickelt.)
+ * [MakeHuman](http://www.makehumancommunity.org)

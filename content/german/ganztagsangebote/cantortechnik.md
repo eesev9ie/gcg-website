@@ -27,45 +27,44 @@ type: "ganztagsangebote"
 
 ### Über die AG
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+CantorTechnik ist eine Arbeitsgemeinschaft für in Technik interessierte Schüler am GCG.
+
+Unsere AG ist in Themenbereiche aufgeteilt, die getrennt von einander arbeiten und sich auf verschiedene Themen konzentrieren.
+
+Dies ist darauf abgezielt, dass an verschiedenen Technikthemen in einer Arbeitsgemeinschaft zusammenfasst und immer wieder etwas anderes machen kann ohne dafür eine andere Arbeitsgemeinschaft besuchen zu müssen.
+
+In dieser Arbeitsgemeinschaft kannst du ohne jegliche Kenntnisse in Programmierung verschiedenen Programmiersprachen erlernen, und eigene Programme entwickeln.
+
+Des weiteren kannst du an der Themengruppe CantorArduino teilnehmen und mit Hilfe des Entwicklungsboards Arduino verschiedene elektronische Bauteile am Computer mit der Programmiersprache C++ ansteuern.
+
+Die Verknüpfung dieser beiden Bereiche ergibt CantorRobotik - Einen Themenbereich indem Roboter auf Basis von Arduino und Raspberry Pi entwickelt, gebaut und programmiert werden. Diese Roboter bekommen Sensoren, Kameras und andere Datenerfassungsgeräte, wodurch sie zu Multimediarobotern werden. Die Daten werden wiederrum in einem z.B. in der Programmiersprache Python geschriebenen Programm verarbeitet und gespeichert.
+
+Doch um dies alles zu machen brauchen wir Computer. Da wir aber nicht an einen Computerraum angewiesen sein wollen benutzen wir ale Laptops, die früher in der Schule im Einsatz waren. Doch um diese Laptops richtig benutzen zu können, reparieren wir diese und installieren darauf das Betriebssystem Debian Linux. Doch um auch anderen Schülern die Möglichkeit bereitzustellen, z.B. im Unterricht oder für Arbeitsgemeinschaften diese Laptops zu verwenden, haben wir eine weitere Themengruppe gebildet - CantorRepair. In CantorRepair reparieren wir Schullaptops und installieren darauf ein neueres Betriebssystem, z.B. Debian Linux und stellen diese anderen Schülern zur Nutzung zur Verfügung. Des weiteren beschäftigen wir uns mit der Wartung dieser Technik.
+
+Um anderen einen Einblick in unser AG-Leben zu verschaffen, haben wir die letzte Themengruppe erstellt - CantorMedia.
+
+In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.   
+
+### Bereiche der AG
+
+* CantorArduino - Entwicklung von IoT-Geräten mit Arduino.
+* CantorProg - Programmierung von Standalone-Apps mit den Programmiersprachen Python, Java und anderen.
+* CantorRobotik - Bau von intelligenten Robotern auf Basis von Arduino und Raspberry Pi.
+* CantorRepair - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
+* CantorMedia - Erstellung von Programmiervideos, Tutorials zu Technik und anderen Medieninhalten, Verwaltung des [YouTube Kanals CantorTechnik](https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g)
+
 
 ### Themen
 
+* Erlernen der Grundlagen der Programmierung
+* Erlernen von Linux-Grundlagen
+* Reparatur von Computern
+* Arbeit mit Elektronik
+* Grundlagen der Linux-Konsole
 
 
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-* Lorem ipsum dolor sit amet consectetur adipisicing elit.
+### Teilnahme an der AG
 
+Wir treffen uns jeden Donnerstag von 13.30 bis ca. 15.30 Uhr im Raum 405.
 
-### Ziele
-
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-* Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati unde nulla?
-
-
-### Frais et financement
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+An der Arbeitsgemeinschaft kann jeder unabhängig von Vorkentinissen in Programmierung teilnehmen.
