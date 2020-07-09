@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : ""
 # teacher portrait
-image: "images/teachers/cschapitz.png"
+image: "images/image.png"
 # course
 course: "Fremdsprachen"
 # biography
