@@ -4,44 +4,46 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Name
 - type: file
   name: bg_image
   label: bg_image
 - type: text
   name: description
-  label: description
+  label: Untertitel
 - type: file
   name: image
-  label: image
+  label: Image
 - type: text
   name: course
-  label: course
+  label: Fachbereich
 - type: textarea
   name: bio
-  label: bio
+  label: Biografie
 - type: list
   name: interest
-  label: interest
+  label: Fächer
 - type: field_group_list
   name: contact
-  label: contact
+  label: Kontaktdaten
   fields:
   - type: text
     name: name
-    label: name
+    label: Titel
   - type: text
     name: icon
-    label: icon
+    label: Symbol
   - type: text
     name: link
-    label: link
+    label: Link
 - type: boolean
   name: clubs
-  label: clubs
+  label: AG-Leiter ?
 - type: text
   name: type
   label: type
+  default: teacher
+  hidden: true
 - type: text
   name: forestry_link
-  label: forestry_link
+  label: Kontaktformular-Link
