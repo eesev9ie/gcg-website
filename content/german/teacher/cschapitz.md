@@ -16,9 +16,9 @@ interest: ["Englisch","Französisch"]
 # contact info
 contact:
   # contact item loop
-  - name : "schapitz@cantor-gymnasium.de"
-    icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:schapitz@cantor-gymnasium.de"
+  #- name : "schapitz@cantor-gymnasium.de"
+  #  icon : "ti-email" # icon pack : https://themify.me/themify-icons
+  #  link : "mailto:schapitz@cantor-gymnasium.de"
 
 # clubs ?
 clubs: false

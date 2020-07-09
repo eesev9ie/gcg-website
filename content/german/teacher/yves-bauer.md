@@ -21,9 +21,9 @@ contact:
     link : "mailto:y_info@gmx.de"
 
   # contact item loop
-  - name : "+49 3451717630"
-    icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
-    link : "tel:+493451717630"
+  #- name : "+49 3451717630"
+  #  icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
+  #  link : "tel:+493451717630"
 
 
 # type

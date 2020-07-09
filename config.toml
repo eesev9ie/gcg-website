@@ -94,7 +94,7 @@ hasChildren = true
   [[menu.main]]
   parent = "Digitale Angebote"
   name = "Vertretugsplan"
-  URL = "vplan"
+  URL = "https://stundenplan24.de/20072021/mobil"
   weight = 1
 
   [[menu.main]]
