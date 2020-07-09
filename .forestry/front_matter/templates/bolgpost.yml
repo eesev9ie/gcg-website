@@ -4,28 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: datetime
   name: date
-  label: date
+  label: Datum
 - type: file
   name: bg_image
   label: bg_image
 - type: text
   name: description
-  label: description
+  label: Untertitel
 - type: file
   name: image
-  label: image
+  label: Bild
 - type: text
   name: author
-  label: author
+  label: Autor
 - type: list
   name: categories
-  label: categories
+  label: Kategorien
 - type: list
   name: tags
-  label: tags
+  label: Tags
 - type: text
   name: type
   label: type
+  default: blog
+  hidden: true
