@@ -36,8 +36,21 @@
     </div>
 
     <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="{{ .Params.Forestry_link | safeURL }}" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Name">
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="E-Mail Adresse">
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Betreff">
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="Nachricht"></textarea>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+        </form>
+      </div>
+    </div>
+
+    {{ if .Params.Clubs }}
+    <div class="row">
       <div class="col-12">
-        <h4 class="mb-4">{{ i18n "courses" | upper}}</h4>
+        <h4 class="mb-4">{{ i18n "clubs" | upper}}</h4>
       </div>
       <!-- course item -->
       {{ range where .Site.RegularPages "Params.teacher" .Title }}
@@ -46,6 +59,7 @@
       </div>
       {{ end }}
     </div>
+    {{ end }}
   </div>
 </section>
 <!-- /teacher details -->

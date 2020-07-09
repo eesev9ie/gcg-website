@@ -127,8 +127,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
-        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <h2 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h2>
+        <h5 class="section-title text-white">{{ .title | markdownify }}</h5>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>

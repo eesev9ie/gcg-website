@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- forms -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Data.Pages}}
+      <!-- forms item -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "forms" }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /forms -->
+
+{{ end }}

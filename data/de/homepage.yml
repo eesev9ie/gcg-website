@@ -66,15 +66,12 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "À propos d’Educenter"
+  title : "Website im Aufbau"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale).  \n* Alle Bereiche, die mit (UMSTRITTEN) gekennzeichnet sind, müssen noch diskutiert werden und deren Existenz ist noch nicht versichert.  \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: [![Netlify Status](https://api.netlify.com/api/v1/badges/baadeded-97e2-4d14-9add-1f3e5153b1ee/deploy-status)](https://app.netlify.com/sites/eesev9ie/deploys)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten"
   button:
     enable : true
-    label : "En savoir plus"
+    label : "Über die Schule"
     link : "about"
 
 
@@ -87,8 +84,8 @@ ganztagsangebote:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Kontaktiere uns für weitere Informationen"
-  title : "Interessiert ?"
+  title : "Kontaktiere uns für weitere Informationen"
+  subtitle : "Interessiert ?"
   button:
     enable : true
     label : "Kontakt"
@@ -100,7 +97,7 @@ success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Über die Schule"
-  content : "Infos"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
   # video link
   video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
 
@@ -108,7 +105,7 @@ success_story:
 ############################# event ################################
 event:
   enable : true
-  title : "Die nächsten Termine Termine"
+  title : "Die nächsten Termine"
   # event item comes from "content/**/event" folder.
 
 

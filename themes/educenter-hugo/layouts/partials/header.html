@@ -48,7 +48,7 @@
               </a>
               <div class="dropdown-menu">
                 {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                <a class="dropdown-item text-uppercase" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
@@ -60,7 +60,7 @@
             {{ end }}
           </ul>
 
-          <!-- Language List -->
+          <!-- Language List >
           {{ if .IsTranslated }}
           <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
             {{ $siteLanguages := .Site.Languages}}
@@ -81,6 +81,7 @@
             {{ end }}
           </select>
           {{ end }}
+          <!-- /LL -->
         </div>
       </nav>
     </div>

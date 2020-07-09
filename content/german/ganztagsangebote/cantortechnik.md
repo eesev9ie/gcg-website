@@ -7,17 +7,18 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "desc"
 # course thumbnail
-image: "images/courses/course-1.jpg"
+image: "images/ganztagsangebote/cantortechnik.png"
 # taxonomy
 category: "Digitalität und Technik"
 # teacher
 teacher: "Yves Bauer"
 # duration
 duration: "Donnerstag, 6.- 7. Stunde"
+days: "Donnerstag, 6. - 7. Stunde"
 # weekly
 weekly: "2 Stunden"
 # course fee
-class: "alle"
+class: "alle Klassenstufen"
 # apply url
 apply_url : "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"
 # type

@@ -19,10 +19,10 @@
       </div>
     </div>
     <!-- course list -->
-    <div class="row justify-content-center">
+    <div class="row filtr-container">
       <!-- course item -->
       {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-5">
+      <div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 mb-5 filtr-item">
         {{ .Render "ganztagsangebote" }}
       </div>
       {{ end }}

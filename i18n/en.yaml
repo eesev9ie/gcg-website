@@ -75,7 +75,7 @@
 
 - id: join
   translation: Join
-  
+
 - id: enter_email
   translation: Enter your email…
 
@@ -108,3 +108,6 @@
 
 - id: download
   translation: Download
+
+- id: datenschutzerklärung
+  translation: Provacy Policy

@@ -11,7 +11,7 @@
   translation: Kontaktdaten
 
 - id: subscribe_newsletter
-  translation: Newsteller abbonieren
+  translation: Newsletter abbonieren
 
 - id: subscribe
   translation: Abbonieren
@@ -85,10 +85,10 @@
 - id: links
   translation: Links
 
-- id: courses
+- id: clubs
   translation: Ganztagsangebote
 
-- id: courses_footer
+- id: clubs_footer
   translation: Ganztags- angebote
 
 - id: new_notice
@@ -104,10 +104,19 @@
   translation: Alle
 
 - id: interest
-  translation: RÉSUMÉ DES ACTIVITÉS/INTÉRÊTS
+  translation: Fächer
 
 - id: our_teachers
-  translation: Nos enseignants
+  translation: Unsere Lehrer
 
 - id: download
   translation: Télécharger
+
+- id: datenschutzerklärung
+  translation: Datenschutzerklärung
+
+- id: website
+  translation: Website
+
+- id: related_contests
+  translation: Weitere Wettbewerbe

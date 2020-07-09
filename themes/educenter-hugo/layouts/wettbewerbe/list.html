@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<!-- wettbewerbe -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- course category list -->
+        <ul class="list-inline text-center filter-controls mb-5">
+          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
+          {{ $categories := slice }}
+          {{ range .Data.Pages }}
+          {{ $categories = $categories | append .Params.Category }}
+          {{ end }}
+          {{ range ( $categories | uniq ) }}
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <!-- wettbewerbe list -->
+    <div class="row filtr-container">
+      <!-- wettbewerb item -->
+      {{ range .Data.Pages }}
+      <div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 mb-5 filtr-item">
+        {{ .Render "wettbewerbe" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /wettbewerbe list -->
+  </div>
+</section>
+<!-- /wettbewerbe -->
+
+{{ end }}

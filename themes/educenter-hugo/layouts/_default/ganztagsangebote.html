@@ -1,13 +1,13 @@
-<div class="card p-0 border-primary rounded-0 hover-shadow">
+<div class="card border-primary rounded-0 hover-shadow mb-5">
   <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
   <div class="card-body">
-    <ul class="list-inline mb-2">
+    <ul class="list-inline">
       <li class="list-inline-item"><p><i class="ti-calendar"></i> {{ .Params.Duration }}</p></li>
       <li class="list-inline-item"><p><i class="ti-bookmark-alt"></i> {{ .Params.Category }}</p></li>
       <li class="list-inline-item"><p><i class="ti-user"></i> {{ .Params.Class }}</p></li>
     </ul>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
+    <!-- p class="card-text mb-4">{{ .Summary | truncate 100 }}</p-->
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "join_club"}}</a>
   </div>
 </div>

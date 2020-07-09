@@ -4,7 +4,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
-image: "images/gcg.jpg"
+image: "images/slide1.jpg"
 # meta description
 description : "Das Georg-Cantor-Gymnasium - ein mathematisch-naturwissenschaftlich-technisches Gymnasium in Halle(Saale)"
 ---

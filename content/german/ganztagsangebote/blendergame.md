@@ -7,17 +7,18 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "desc"
 # course thumbnail
-image: "images/courses/course-1.jpg"
+image: "images/ganztagsangebote/blender.png"
 # taxonomy
 category: "Digitalität und Technik"
 # teacher
 teacher: "Yves Bauer"
 # duration
 duration: "Montag, 6.- 7. Stunde"
+days: "Montag, 6. - 7. Stunde"
 # weekly
 weekly: "2 Stunden"
 # course fee
-class: "alle"
+class: "alle Klassenstufen"
 # apply url
 apply_url : "#"
 # type
