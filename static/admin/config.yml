@@ -7,13 +7,21 @@ backend:
 media_folder: "static/images"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/" # The path to the folder where the documents are stored
+  - name: "author-de" # Used in routes, e.g., /admin/collections/blog
+    label: "Deutsch-Autor" # Used in the UI
+    folder: "content/german/author" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "image", "default: "images/backgrounds/page-title.jpg"}
+      - {label: "Metabeschreibung", name: "description", widget: "text"}
+      - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
+      - label: "Sozielle Netzwerke/Kontakt"
+        name: "social"
+        widget: "object"
+        fields:
+          - {label: "Symbol", name: "icon", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Beschreibung", name: "body", widget: "markdown"}

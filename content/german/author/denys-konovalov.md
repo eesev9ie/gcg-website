@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 description : ""
 email: "denys.konovalov@pm.me"
 # portrait
-photo: "images/people/dkonovalov.png"
+image: "images/people/dkonovalov.png"
 social:
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "https://twitter.com/LXDB_DE"
