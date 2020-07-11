@@ -15,7 +15,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "images/backgrounds/page-title.jpg"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: ""}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
@@ -27,3 +27,20 @@ collections:
           - {label: "Link", name: "link", widget: "string"}
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
+  - name: "blog-de"
+    label: "Deutsh/Blogbeitrag"
+    folder: "content/german/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Datum", name: "date", widget: "datetime"}
+      - {label: "Entwurf", name: "draft", widget: "boolean"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
+      - {label: "Metabeschreibung", name: "description"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
+      - {label: "Autor", name: "author", widget: "string, default: "CantorTechnik AG"}
+      - {label: "Kategorien", name: "cathegories", widget: "list")
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Text", name: "body", widget: "markdown"}      
