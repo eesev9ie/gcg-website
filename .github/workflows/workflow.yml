@@ -12,13 +12,18 @@ jobs:
         uses: actions/checkout@master
         with:
           submodules: true
-      - name: Build Site
-        uses: chabad360/hugo-actions@master
+      - name: Hugo to GH Pages
+        uses: chabad360/hugo-gh-pages@v1.2
         with:
-            buildPath: 'public'
-            # Use if you have a need to build the site to another directory
-            hugoVersion: '0.69.0'
-            # Use if your site requires a specific version of Hugo
-            # Append "extended_" to the begining to use Hugo Extended
-            args: --gc
-            # Use if you want to pass some custom arguments to Hugo
+          # A Github Personal Access Token with Repo permissions
+          githubToken: ${{ secrets.TOKEN }}
+          # The custom domain name for your GH Pages Site
+          cname: # optional
+          # The branch to push the built site to
+          branch: master
+          # The repo to push the built site to
+          repo: lxdb/eesev9ie.github.io
+          # The version of hugo to use
+          hugoVersion: 0.69.0
+          # Arguments to pass to Hugo
+          args: # optional, default is --gc --minify --cleanDestinationDir
