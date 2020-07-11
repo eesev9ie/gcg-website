@@ -8,20 +8,21 @@ media_folder: "static/images"
 
 collections:
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog
-    label: "Deutsch-Autor" # Used in the UI
+    label: "Deutsch/Autor" # Used in the UI
     folder: "content/german/author" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "images/backgrounds/page-title.jpg"}
-      - {label: "Metabeschreibung", name: "description", widget: "text"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", default: ""}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
-      - label: "Soz. Netzwerke/Kontakt"
+      - label: "Soz. Netzwerke/Kontaktdaten"
         name: "social"
-        widget: "object"
+        widget: "list"
         fields:
-          - {label: "Symbol", name: "icon", widget: "string"}
+          - {label: "Symbol", name: "icon", widget: "string", hint: "Symbolname von https://themify.me/themify-icons"}
           - {label: "Link", name: "link", widget: "string"}
+        required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
