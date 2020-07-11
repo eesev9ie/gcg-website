@@ -20,9 +20,9 @@ jobs:
           # The custom domain name for your GH Pages Site
           cname: # optional
           # The branch to push the built site to
-          branch: master
+          branch: gh-pages
           # The repo to push the built site to
-          repo: lxdb/eesev9ie.github.io
+          repo: lxdb/gcg-website
           # The version of hugo to use
           hugoVersion: 0.69.0
           # Arguments to pass to Hugo
