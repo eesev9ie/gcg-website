@@ -5,7 +5,5 @@ description: " "
 email: cantortechnik@pm.me
 image: /static/images/icon.png
 social:
-  icon: " "
-  link: " "
 ---
 **Test**
