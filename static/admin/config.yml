@@ -14,7 +14,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "image", "default: "images/backgrounds/page-title.jpg"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "images/backgrounds/page-title.jpg"}
       - {label: "Metabeschreibung", name: "description", widget: "text"}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
