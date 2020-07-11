@@ -40,7 +40,7 @@ collections:
       - {label: "Metabeschreibung", name: "description"}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
       - {label: "Autor", name: "author", widget: "string", default: "CantorTechnik AG"}
-      - {label: "Kategorien", name: "cathegories", widget: "list")
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Kategorien", name: "cathegories", widget: "list", default: ["Sonstige"])
+      - {label: "Tags", name: "tags", widget: "list", deault: [""]}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
