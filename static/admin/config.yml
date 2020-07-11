@@ -39,8 +39,8 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
       - {label: "Metabeschreibung", name: "description"}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
-      - {label: "Autor", name: "author", widget: "string, default: "CantorTechnik AG"}
+      - {label: "Autor", name: "author", widget: "string", default: "CantorTechnik AG"}
       - {label: "Kategorien", name: "cathegories", widget: "list")
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Text", name: "body", widget: "markdown"}      
+      - {label: "Text", name: "body", widget: "markdown"}
