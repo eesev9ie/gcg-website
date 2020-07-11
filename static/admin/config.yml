@@ -16,7 +16,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
-      - {label: "Metabeschreibung", name: "description", widget: "text", default: ""}
+      - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
       - label: "Soz. Netzwerke/Kontaktdaten"
@@ -37,10 +37,15 @@ collections:
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean"}
       - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
-      - {label: "Metabeschreibung", name: "description"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
       - {label: "Autor", name: "author", widget: "string", default: "CantorTechnik AG"}
-      - {label: "Kategorien", name: "cathegories", widget: "list", default: ["Sonstige"])
-      - {label: "Tags", name: "tags", widget: "list", deault: [""]}
+      - label: "Kategorien"
+        name: "cathegories"
+        widget: "list"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
