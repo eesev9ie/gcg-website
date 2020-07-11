@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://lxdb.github.io/"
+baseURL = "https://eesev9ie.github.io/"
 title = "Georg-Cantor-Gymnasium"
 theme = "educenter-hugo"
 # post pagination
