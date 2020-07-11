@@ -35,7 +35,7 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
-      - {label: "Entwurf", name: "draft", widget: "boolean"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/slide1.jpg"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
