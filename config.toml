@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://eesev9ie.netlify.app/"
+baseURL = "https://lxdb.github.io/"
 title = "Georg-Cantor-Gymnasium"
 theme = "educenter-hugo"
 # post pagination
