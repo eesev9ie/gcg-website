@@ -5,6 +5,7 @@ backend:
   site_domain: eesev9ie.netlify.app
 
 media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog

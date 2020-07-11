@@ -1,7 +1,7 @@
 ---
 title: "Denys Konovalov"
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: /images/slide1.jpg
 # meta description
 description : ""
 email: "denys.konovalov@pm.me"
