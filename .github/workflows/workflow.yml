@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+        with:
+          submodules: true
+      - name: Build Site
+        uses: chabad360/hugo-actions@master
+         with:
+            buildPath: 'public'
+            # Use if you have a need to build the site to another directory
+            hugoVersion: '0.69.0'
+            # Use if your site requires a specific version of Hugo
+            # Append "extended_" to the begining to use Hugo Extended
+            args: --gc
+            # Use if you want to pass some custom arguments to Hugo
