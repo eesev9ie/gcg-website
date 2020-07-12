@@ -1,17 +1,18 @@
 ---
-title: "GÉNIE CHIMIQUE"
+title: "Anmeldung"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # scholarship image
-image: "images/scholarship/scholarship-item-3.jpg"
+image: "images/scholarship/scholarship-item-1.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---
 
-* instituts
-* Recherche intelligemment affiliée
-* Accès numérique aux bourses d’étude
-* Catalyse intelligente
-* Portail vers une bibliothèque intelligente
-* Programmes de recherche intelligente
+Bis zum **11.02.2020** müssen:
+ * eine [schriftliche Anmeldung](/de/forms/anmeldeformular/)
+ * eine Kopie des Halbjahreszeugnisses
+ * die Schullaufbahnerklärung  
+
+
+am [Georg-Cantor-Gymnasium eingereicht](/de/kontakt) werden.

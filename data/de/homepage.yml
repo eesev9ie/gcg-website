@@ -123,7 +123,7 @@ funfacts:
       count : "45"
 
     # funfact item loop
-    - name : "Neue Schüler pro Jahr"
+    - name : "Neue Schüler  \nwerden jedes Jahr aufgenommen"
       count : "72"
 
 

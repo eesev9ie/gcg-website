@@ -4,15 +4,15 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Herr Bauer ist der Leiter der Arbeitsgemeinschaften CantorTechnik und Blender Game am Georg-Cantor-Gymnasium."
 # teacher portrait
-image: "images/image.png"
+image: "images/teachers/image.png"
 # course
 course: "Ganztagsangebote/Digitalität und Technik"
 # biography
-bio: "Biografie"
+bio: ""
 # interest
-interest: ["Computer Networking","Computer Security","Human Computer Interfacing"]
+interest: ["CantorTechnik","Blender Game"]
 # contact info
 contact:
   # contact item loop
@@ -28,4 +28,8 @@ contact:
 
 # type
 type: "teacher"
+forestry_link: ""
 ---
+### Biografie
+
+### Kontakt
