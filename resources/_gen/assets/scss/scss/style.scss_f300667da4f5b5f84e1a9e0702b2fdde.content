@@ -371,9 +371,6 @@ textarea.form-control {
   height: 200px;
   padding: 20px; }
 
-#map_canvas {
-  height: 500px; }
-
 .post-thumb-sm {
   max-width: 100px; }
 
@@ -521,7 +518,7 @@ link:focus,
   color: #fff; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 40px 0px; }
+  padding: 35px 0px; }
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 20px; } }
@@ -542,7 +539,7 @@ link:focus,
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
   border-bottom: 5px solid #ffbc3b;
   padding: 15px;
-  top: 96px;
+  top: 85px;
   border-radius: 0;
   display: block;
   visibility: hidden;
@@ -787,7 +784,7 @@ link:focus,
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px; }
+  padding-top: 75px; }
 
 /* /footer */
 .filter-controls li {

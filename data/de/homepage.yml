@@ -5,14 +5,25 @@ slider:
   slider_item:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Eine Mathematisch-naturwissenschaftliche Spezialschule"
+      content : "Erfolgreich"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Unsere Erfolge"
+        link : "success"
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Modern und digital"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
-        link : "about"
+        link : "digital"
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
@@ -23,44 +34,7 @@ slider:
       button:
         enable : true
         label : "Mehr erfahren"
-        link : "about#primegymnasium"
-
-    # slider item loop
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Ein Mitglied im Netzwerk Mathematisch-naturwissenschaftlicher Excellence-Center an Schulen (MINT-EC)"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "about#mintec"
-
-
-############################### Banner feature ###############################
-banner_feature:
-  enable : false
-  image : "images/banner/banner-feature.png"
-  feature_item:
-    # feature item loop
-    - name : "Bourses académiques"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Notre bureau"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Nos accomplissements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+        link : "frühstudium"
 
 
 ############################## about ##################################
