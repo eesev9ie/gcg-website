@@ -12,13 +12,13 @@ slider:
       button:
         enable : true
         label : "Unsere Erfolge"
-        link : "success"
+        link : "#success"
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Modern und digital"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : "right"
+      animation_out : "down"
       # available animation : left, right, up, down
       button:
         enable : true
@@ -28,14 +28,41 @@ slider:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Ein Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : "up"
+      animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : "frühstudium"
 
+############################# success #############################
+success_banner:
+  enable : true
+  image : "images/success/success_banner.png"
+  feature_item:
+    # feature item loop
+    - name : "Mathematikolympiade"
+      img: true
+      icon : "/images/success/mo.png" # icon pack : https://themify.me/themify-icons
+      content : "In der Landesmathematikolympiade 2020 wurden:  \n * **3 von 9 ersten Preisen**  \n * **6 von 21 zweiten Preisen**  \n * **13 von 30 dritten Preisen**  \n * **11 von 39 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
+
+    # feature item loop
+    - name : "Physikolympiade"
+      img: true
+      icon : "/images/success/po.png" # icon pack : https://themify.me/themify-icons
+      content : "In der Landesphysikolympiade 2020 wurden:  \n * **3 von 5 ersten Preisen**  \n * **2 von 8 zweiten Preisen**  \n * **4 von 13 dritten Preisen**  \n * **1 von 18 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
+
+    # feature item loop
+    - name : "Chemieolympiade"
+      img: true
+      icon : "/images/success/cds.png" # icon pack : https://themify.me/themify-icons
+      content : "Ein Schüler unserer Schule vertritt als einer von 4. Schülern der Nationalmannschaft Deutschland in der Internationalen Chemieolympiade 2020."
+
+    # feature item loop
+    - name : "Und viel mehr ..."
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete, Spezialistenlager und begabtenfördernde Ganztagsangebote."
 
 ############################## about ##################################
 about:
@@ -58,12 +85,12 @@ ganztagsangebote:
 ########################## Call to action ############################
 cta:
   enable : true
-  title : "Kontaktiere uns für weitere Informationen"
+  title : "Dann geht es hier direkt zur Anmeldung!"
   subtitle : "Interessiert ?"
   button:
     enable : true
-    label : "Kontakt"
-    link : "contact"
+    label : "Anmeldeantrag stellen"
+    link : "anmeldung"
 
 
 ######################## Success story #############################
