@@ -31,7 +31,9 @@
           <!-- logo -->
           <a class="logo-footer" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
           <ul class="list-unstyled">
-            <li class="mb-4">{{ .Site.Params.address | markdownify }}</li>
+            <li class="mb-4">
+              <a href="{{ .Site.Params.route_link }}">{{ .Site.Params.address | markdownify }}</a>
+            </li>
             <li class="mb-4">{{ .Site.Params.email | markdownify }}</li>
             <li class="mb-4">{{ .Site.Params.mobile | markdownify }}</li>
             <li class="mb-4">

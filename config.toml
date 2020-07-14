@@ -70,7 +70,7 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Schule"
-  name = "(UMSTRITTEN)Lehrer und AG-Leiter"
+  name = "Lehrer und AG-Leiter"
   URL = "teacher"
   weight = 4
 
@@ -85,6 +85,12 @@ hasChildren = true
   name = "CantorPreis"
   URL = "cantorpreis"
   weight = 6
+
+  [[menu.main]]
+  parent = "Schule"
+  name = "Anmeldung"
+  URL = "anmeldung"
+  weight = 7
 
 [[menu.main]]
 weight = 2
@@ -156,6 +162,7 @@ description = "This is meta description"
 author = "Themefisher"
 # contact info
 address = "Georg-Canot-Gymnasium Halle, Torstraße 13, 06110 Halle(Saale)"
+route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
 mobile = "+49345 6903156"
 email = "schulleitung@cantor-gymnasium.de"
 # contact form action

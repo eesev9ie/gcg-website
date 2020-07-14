@@ -3,7 +3,7 @@ title: "Website im Entwicklungsstadium"
 date: 2019-07-06T15:27:17 MEST
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title.png"
 # meta description
 description : ""
 # notice download link

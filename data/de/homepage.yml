@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/slide1.jpg"
+  bg_image : "images/banner/banner-2.png"
   slider_item:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"

@@ -2,7 +2,7 @@
 title: "Anmeldung"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title.png"
 # scholarship image
 image: "images/scholarship/scholarship-item-1.jpg"
 # meta description

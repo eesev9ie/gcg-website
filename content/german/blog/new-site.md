@@ -3,7 +3,7 @@ title: "Entwicklung neuer Website"
 date: 2019-07-06T15:27:17+01:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title.png"
 # meta description
 description : "Seit mehreren Tagen ist die neue Schulwebsite in Entwicklung."
 # post thumbnail

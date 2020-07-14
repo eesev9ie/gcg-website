@@ -5,7 +5,7 @@ publishDate: "2019-01-01T00:00:00Z"
 date: 2020-07-15T15:00:00+01:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title.png"
 # meta description
 description : ""
 # Event image

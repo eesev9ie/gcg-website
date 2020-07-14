@@ -3,7 +3,7 @@ title: "Gesundheitsbogen Coronavirus"
 date: 2020-07-09T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/backgrounds/page-title.png"
 # meta description
 description : ""
 # Research image
@@ -18,7 +18,7 @@ Bei Anfrage können die Informationen an die Gesundheitsbehörden weitergegeben 
 
 ## Download
 
-Der Gesundheitsbogen kann [hier](/forms/Gesundheitsbogen_Coronavirus.pdf) heruntergeladen werden.
+Der Gesundheitsbogen kann [hier](/images/forms/Gesundheitsbogen_Coronavirus.pdf) heruntergeladen werden.
 
 ## Datenschutzhinweise
 
