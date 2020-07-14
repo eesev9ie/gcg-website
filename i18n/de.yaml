@@ -120,3 +120,6 @@
 
 - id: related_contests
   translation: Weitere Wettbewerbe
+
+- id: social
+  translation: "Soz. Netzwerke"

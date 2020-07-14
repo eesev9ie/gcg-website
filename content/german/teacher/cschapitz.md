@@ -24,7 +24,7 @@ contact:
 clubs: false
 # type
 type: "teacher"
-forestry_link: ""
+#forestry_link: ""
 ---
 
 ### Claudia Schapitz
