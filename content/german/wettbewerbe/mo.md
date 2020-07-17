@@ -11,7 +11,7 @@ image: "images/contests/mo.png"
 # taxonomy
 category: "Mathematik"
 # course fee
-class: "5-12 Klasse"
+class: "5 - 12 Klasse"
 # apply url
 web_url : "https://mo.elemente.org/"
 # type
