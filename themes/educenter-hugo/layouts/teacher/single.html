@@ -40,7 +40,8 @@
     {{ if .Params.Clubs }}
     <div class="row">
       <div class="col-lg-7 mb-20 mb-lg-0">
-        <form action="{{ .Params.Forestry_link | safeURL }}" method="POST">
+        <h3>Kontakt</h3>
+        <form action="{{ .Params.Formspree_link | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Name">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="E-Mail Adresse">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Betreff">

@@ -14,7 +14,6 @@ category: "Digitalität und Technik"
 teacher: "Yves Bauer"
 # duration
 duration: "Donnerstag, 6.- 7. Stunde"
-days: "Donnerstag, 6. - 7. Stunde"
 # weekly
 weekly: "2 Stunden"
 # course fee

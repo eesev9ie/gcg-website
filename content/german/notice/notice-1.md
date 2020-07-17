@@ -6,8 +6,6 @@ draft: false
 bg_image: "images/backgrounds/page-title.png"
 # meta description
 description : ""
-# notice download link
-download_link : "#"
 # type
 type: "notice"
 ---

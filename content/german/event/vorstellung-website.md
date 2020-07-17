@@ -13,14 +13,14 @@ image: "images/image.png"
 # location
 location: "Georg-Cantor-Gymnasium, Halle(Saale)"
 # entry fee
-fee: "keine"
+#fee: "keine"
 # apply url
-apply_url : "#"
-speaker:
+#apply_url : "#"
+#speaker:
   # speaker loop
-  - name : "Jack Mastio"
-    image : "images/event-speakers/speaker-1.jpg"
-    designation : "Teacher"
+  #- name : "Jack Mastio"
+  # image : "images/event-speakers/speaker-1.jpg"
+  # designation : "Teacher"
 # type
 type: "event"
 ---
