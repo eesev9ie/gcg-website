@@ -134,7 +134,7 @@ weight = 5
 # footer menu
 
 [[menu.footer]]
-name = "(UMSTRITTEN)Lehrer und AG-Leiter"
+name = "Lehrer und AG-Leiter"
 URL = "teacher"
 
 [[menu.footer]]
@@ -146,8 +146,8 @@ name = "Termine"
 URL = "event"
 
 [[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
+name = "anmeldung"
+URL = "Anmledung"
 
 [[menu.footer]]
 name = "Formulare und Vorlagen"
@@ -178,11 +178,11 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
-[params.subscription]
-enable = false
+##[params.subscription]
+#enable = false
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+#mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+#mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
 
 ############################# social site ########################
 [[params.social]]
@@ -203,12 +203,7 @@ link = "#"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/eesev9ie"
 
 
 ################################### English language #####################################
