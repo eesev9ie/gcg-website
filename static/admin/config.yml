@@ -55,11 +55,15 @@ collections:
         valueField: "title"
         displayFields: ["title"]
       - label: "Kategorien"
-        name: "cathegories"
+        name: "categories"
         widget: "list"
         required: false
-        field: {label: "Kategorie", name: "cathegory", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "string", required: false, hint: '["Tag 1", "Tag 2"]'}
+        field: {label: "Kategorie", name: "category", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: {label: "Tag", name: "tag", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "teacher-de"
