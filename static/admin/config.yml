@@ -36,6 +36,7 @@ collections:
   - name: "blog-de"
     label: "Deutsh/Blogbeitrag"
     folder: "content/german/blog"
+    filter: {field: "type", value: "post"}
     create: true
     slug: "{{slug}}"
     editor:
@@ -69,6 +70,7 @@ collections:
   - name: "teacher-de"
     label: "Deutsch/Lehrer|AG-Leiter"
     folder: "content/german/teacher"
+    filter: {field: "type", value: "teacher"}
     create: true
     slug: "{{slug}}"
     editor:
@@ -100,6 +102,7 @@ collections:
   - name: "events-de"
     label: "Deutsch/Termine"
     folder: "content/german/event"
+    filter: {field: "type", value: "event"}
     create: true
     slug: "{{slug}}"
     editor:
@@ -118,6 +121,7 @@ collections:
   - name: "forms-de"
     label: "Deutsch/Formulare|Vorlagen"
     folder: "content/german/forms"
+    filter: {field: "type", value: "forms"}
     create: true
     slug: "{{slug}}"
     editor:
@@ -134,16 +138,19 @@ collections:
   - name: "anmeldung-de"
     label: "Deutsch/Anmeldung"
     folder: "content/german/anmeldung"
+    filter: {field: "type", value: "anmeldung"}
     create: true
     editor:
       preview: false
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "anmeldung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis-de"
     label: "Deutsch/CantorPreis"
     folder: "content/german/cantorpreis"
+    filter: {field: "type", value: "cantorpreis"}
     create: true
     editor:
       preview: false
@@ -167,6 +174,7 @@ collections:
   - name: "ganztagsangebote-de"
     label: "Deutsch/Ganztagsangebote"
     folder: "content/german/ganztagsangebote"
+    filter: {field: "type", value: "ganztagsangebote"}
     create: true
     editor:
       preview: false
@@ -194,6 +202,7 @@ collections:
   - name: "notice-de"
     label: "Deutsch/Hinweise"
     folder: "content/german/notice"
+    filter: {field: "type", value: "notice"}
     create: true
     editor:
       preview: false
@@ -208,6 +217,7 @@ collections:
   - name: "wettbewerbe-de"
     label: "Deutsch/Wettbewerbe"
     folder: "content/german/wettbewerbe"
+    filter: {field: "type", value: "wettbewerbe"}
     create: true
     editor:
       preview: false
@@ -222,3 +232,13 @@ collections:
       - {label: "Website", name: "web_url", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
       - {label: "Text", name: "body", widget: "markdown"}
+  - name: "pages-de"
+    label: "Deutsch/Seiten"
+    files:
+      - name: "blog-index"
+        label: "Blog"
+        file: "content/german/blog/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}

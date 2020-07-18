@@ -1,6 +1,7 @@
 ---
 title: "Anmeldung"
 draft: false
+type: "anmeldung"
 ---
 
 Bis zum **11.02.2020** müssen:
