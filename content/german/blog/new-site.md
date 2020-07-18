@@ -11,8 +11,11 @@ image: "images/image.png"
 # post author
 author: "Denys Konovalov"
 # taxonomy
-categories: ["Digitalisierung"]
-tags: ["Internet", "Schulwebsite"]
+categories:
+  - "Digitalisierung"
+tags:
+  - "Internet"
+  - "Schulwebsite"
 # type
 type: "post"
 ---

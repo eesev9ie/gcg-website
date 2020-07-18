@@ -54,7 +54,11 @@ collections:
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
-      - {label: "Kategorien", name: "cathegories", widget: "string", required: false, hint: '["1", "2"]'}
+      - label: "Kategorien"
+        name: "cathegories"
+        widget: "list"
+        required: false
+        field: {label: "Kategorie", name: "cathegory", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string", required: false, hint: '["Tag 1", "Tag 2"]'}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
