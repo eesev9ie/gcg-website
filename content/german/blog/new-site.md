@@ -1,23 +1,17 @@
 ---
-title: "Entwicklung neuer Website"
-date: 2019-07-06T15:27:17+01:00
+title: Entwicklung neuer Website
+date: 2020-07-18T09:08:19.267Z
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.png"
-# meta description
-description : "Seit mehreren Tagen ist die neue Schulwebsite in Entwicklung."
-# post thumbnail
-image: "images/image.png"
-# post author
-author: "Denys Konovalov"
-# taxonomy
+bg_image: images/backgrounds/page-title.png
+description: Seit mehreren Tagen ist die neue Schulwebsite in Entwicklung.
+image: images/image.png
+author: Denys Konovalov
 categories:
-  - "Digitalisierung"
+  - Digitalisierung
 tags:
-  - "Internet"
-  - "Schulwebsite"
-# type
-type: "post"
+  - Internet
+  - Schulwebsite
+type: post
 ---
 
 ### Neuanfang
