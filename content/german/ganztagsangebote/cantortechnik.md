@@ -8,7 +8,7 @@ bg_image: "images/backgrounds/page-title.png"
 description : "desc"
 # course thumbnail
 image: "images/ganztagsangebote/cantortechnik.png"
-# taxonomy
+# category
 category: "Digitalität und Technik"
 # teacher
 teacher: "Yves Bauer"
@@ -37,7 +37,7 @@ In dieser Arbeitsgemeinschaft kannst du ohne jegliche Kenntnisse in Programmieru
 
 Des weiteren kannst du an der Themengruppe CantorArduino teilnehmen und mit Hilfe des Entwicklungsboards Arduino verschiedene elektronische Bauteile am Computer mit der Programmiersprache C++ ansteuern.
 
-Die Verknüpfung dieser beiden Bereiche ergibt CantorRobotik - Einen Themenbereich indem Roboter auf Basis von Arduino und Raspberry Pi entwickelt, gebaut und programmiert werden. Diese Roboter bekommen Sensoren, Kameras und andere Datenerfassungsgeräte, wodurch sie zu Multimediarobotern werden. Die Daten werden wiederrum in einem z.B. in der Programmiersprache Python geschriebenen Programm verarbeitet und gespeichert.
+Die Verknüpfung dieser beiden Bereiche ergibt CantorRobotik - Einen Themenbereich indem Roboter auf Basis von Arduino und Raspberry Pi entwickelt, gebaut und programmiert werden. Diese Roboter bekommen Sensoren, Kameras und andere Datenerfassungsgeräte, wodurch diese zu Multimediarobotern werden. Die Daten werden wiederrum in einem z.B. in der Programmiersprache Python geschriebenen Programm verarbeitet und gespeichert.
 
 Doch um dies alles zu machen brauchen wir Computer. Da wir aber nicht an einen Computerraum angewiesen sein wollen benutzen wir ale Laptops, die früher in der Schule im Einsatz waren. Doch um diese Laptops richtig benutzen zu können, reparieren wir diese und installieren darauf das Betriebssystem Debian Linux. Doch um auch anderen Schülern die Möglichkeit bereitzustellen, z.B. im Unterricht oder für Arbeitsgemeinschaften diese Laptops zu verwenden, haben wir eine weitere Themengruppe gebildet - CantorRepair. In CantorRepair reparieren wir Schullaptops und installieren darauf ein neueres Betriebssystem, z.B. Debian Linux und stellen diese anderen Schülern zur Nutzung zur Verfügung. Des weiteren beschäftigen wir uns mit der Wartung dieser Technik.
 

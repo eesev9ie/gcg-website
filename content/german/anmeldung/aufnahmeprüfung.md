@@ -9,4 +9,4 @@ Zur Aufnahme am Georg-Cantor-Gymnasium muss eine Aufnahmeprüfung absolviert wer
 
 besteht.
 
-Übungsmöglichkeiten für den kognitiven Fähigkeitstest finden sie [hier](uebung-test).
+Übungsmöglichkeiten für den kognitiven Fähigkeitstest finden Sie [hier](uebung-test).

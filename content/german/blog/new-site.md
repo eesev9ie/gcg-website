@@ -32,4 +32,4 @@ Der Inhalt der Website wird mit Hilfe von [Markdown](https://de.wikipedia.org/wi
 
 ## Kontakt
 
-Wenn sie Fragen oder Vorschläge zur Entwicklung der Website haben können sie das [Kontaktformular](https://web.lxdb.de/de/#contact) auf meiner Website nutzen.
+Wenn Sie Fragen oder Vorschläge zur Entwicklung der Website haben können Sie das [Kontaktformular](https://web.lxdb.de/de/#contact) auf meiner Website nutzen.

@@ -234,11 +234,108 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "pages-de"
     label: "Deutsch/Seiten"
+    editor:
+      preview: false
     files:
       - name: "blog-index"
         label: "Blog"
         file: "content/german/blog/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "about-index"
+        label: "Über die Schule"
+        file: "content/german/about/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown"}
+      - name: "anmeldung-index"
+        label: "Anmeldung"
+        file: "content/german/anmeldung/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown"}
+      - name: "cantorpreis-index"
+        label: "CantorPreis"
+        file: "content/german/cantorpreis/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "contact-index"
+        label: "Kontakt"
+        file: "content/german/contact/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown"}
+      - name: "event-index"
+        label: "Termine"
+        file: "content/german/event/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "forms-index"
+        label: "Formulare|Vorlagen"
+        file: "content/german/forms/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "ganztagsangebote-index"
+        label: "Ganztagsangebote"
+        file: "content/german/ganztagsangebote/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "impressum"
+        label: "Impressum"
+        file: "content/german/impressum/index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
+          - {label: "Text", name: "body", widget: "markdown"}
+      - name: "notice-index"
+        label: "Hinweise"
+        file: "content/german/notice/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "teacher-index"
+        label: "Lehrer|AG-Leiter"
+        file: "content/german/teacher/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "wettbewerbe-index"
+        label: "Wettbewerbe"
+        file: "content/german/wettbewerbe/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}

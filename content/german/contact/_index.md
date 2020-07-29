@@ -7,6 +7,6 @@ bg_image: "images/backgrounds/page-title.png"
 description : "Eine Nachricht schreiben."
 ---
 
-Wenn sie noch weitere Fragen haben, können sie hiermit eine Nachricht an die Schulleitung unserer Schule schreiben.
+Wenn Sie noch weitere Fragen haben, können Sie hiermit eine Nachricht an die Schulleitung unserer Schule schreiben.
 
 **Das Kontaktformular wird nicht bedient.**
