@@ -123,3 +123,9 @@
 
 - id: social
   translation: "Soz. Netzwerke"
+
+- id: show_more
+  translation: "Mehr anzeigen"
+
+- id: cantorpreisträger
+  translation: "CantorPreis-Träger"

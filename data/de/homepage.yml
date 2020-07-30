@@ -5,25 +5,25 @@ slider:
   slider_item:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Erfolgreich"
+      content : "Mathematisch-naturwissenschaftliche Spezialschule"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
-        enable : true
-        label : "Unsere Erfolge"
-        link : "#success"
+        enable : false
+        label : ""
+        link : ""
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Modern und digital"
+      content : "Schule mit dem Gütesiegel: Begabungsfördernde Schule"
       animation_in : "right"
       animation_out : "down"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
-        link : "digital"
+        link : ""
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
@@ -35,6 +35,50 @@ slider:
         enable : true
         label : "Mehr erfahren"
         link : "frühstudium"
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Kooperationsschule der Hochschule Merseburg"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : ""
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Kooperationsschule der Dow Olefinverbund GmbH"
+      animation_in : "right"
+      animation_out : "down"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : ""
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Mitglied im Netzwerk Mathematisch-naturwissenschaftlicher Excellence-Center an Schulen (MINT-EC)"
+      animation_in : "up"
+      animation_out : "left"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : ""
+
+    # slider item loop
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Jugend Forscht Schule 2018"
+      animation_in : "up"
+      animation_out : "left"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : ""
 
 ############################# success #############################
 success_banner:
@@ -61,7 +105,7 @@ success_banner:
 
     # feature item loop
     - name : "Und viel mehr ..."
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
       content : "Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete, Spezialistenlager und begabtenfördernde Ganztagsangebote."
 
 ############################## about ##################################
@@ -69,7 +113,7 @@ about:
   enable : true
   title : "Website im Aufbau"
   image : "images/about/about-us.jpg"
-  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale).  \n* Alle Bereiche, die mit (UMSTRITTEN) gekennzeichnet sind, müssen noch diskutiert werden und deren Existenz ist noch nicht versichert.  \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: [![Netlify Status](https://api.netlify.com/api/v1/badges/baadeded-97e2-4d14-9add-1f3e5153b1ee/deploy-status)](https://app.netlify.com/sites/eesev9ie/deploys)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten"
+  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale).  \n* Alle Bereiche, die mit (UMSTRITTEN) gekennzeichnet sind, müssen noch diskutiert werden und deren Existenz ist noch nicht versichert.  \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: ![.github/workflows/workflow.yml](https://github.com/eesev9ie/gcg-website/workflows/.github/workflows/workflow.yml/badge.svg)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten"
   button:
     enable : true
     label : "Über die Schule"

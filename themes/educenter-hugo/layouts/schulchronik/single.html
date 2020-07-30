@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- course thumb -->
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    </div>
+    <div>
+      <h2>{{ .Title }}</h2>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+      <!-- cantorpreisträger -->
+      {{ if .Params.Cantorpreisträger }}
+      <div class="col-12">
+        <h2 class="mb-3">{{ i18n "cantorpreisträger" }}</h2>
+        {{ range where .Site.RegularPages "Title" (.Params.Cantorpreisträger | title) }}
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0 align-items-center">
+            <img class="mr-4 img-fluid teacher-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+            <div class="media-body">
+              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              {{ .Description }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+{{ end }}
