@@ -92,6 +92,12 @@ hasChildren = true
   URL = "anmeldung"
   weight = 7
 
+  [[menu.main]]
+  parent = "Schule"
+  name = "Schulchronik"
+  URL = "schulchronik"
+  weight = 8
+
 [[menu.main]]
 weight = 2
 name = "Digitale Angebote"
