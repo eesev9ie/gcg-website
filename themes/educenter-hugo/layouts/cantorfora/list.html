@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {{ range (where .Data.Pages "Params.tenrange"  "0") }}
+      <div class="col-lg-4 col-sm-6">
+        {{ .Render "cantorfora" }}
+      </div>
+      {{ end }}
+      {{ range (where .Data.Pages "Params.tenrange"  "1") }}
+      <div class="col-lg-4 col-sm-6">
+        {{ .Render "cantorfora" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

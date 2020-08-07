@@ -10,4 +10,4 @@ Bis zum **11.02.2020** müssen:
  * die Schullaufbahnerklärung  
 
 
-am [Georg-Cantor-Gymnasium eingereicht](/de/kontakt) werden.
+am [Georg-Cantor-Gymnasium eingereicht](/de/contact) werden.

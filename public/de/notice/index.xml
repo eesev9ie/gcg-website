@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hinweise on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/notice/</link>
+    <description>Recent content in Hinweise on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    
+	<atom:link href="https://eesev9ie.github.io/de/notice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Website im Entwicklungsstadium</title>
+      <link>https://eesev9ie.github.io/de/notice/notice-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/notice/notice-1/</guid>
+      <description>Hinweis Daher dass die neue Website sich im Entwicklungsstadium befindet können hier fehlerhafte Informationen vorfindbar sein.</description>
+    </item>
+    
+  </channel>
+</rss>

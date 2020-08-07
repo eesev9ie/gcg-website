@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{ if .Params.Few }}
+        {{ else }}
+        <div class="col-12 mb-4">
+          <img src="{{ .Params.Image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
+        </div>
+        {{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

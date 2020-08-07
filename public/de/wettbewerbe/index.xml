@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wettbewerbe am GCG on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/wettbewerbe/</link>
+    <description>Recent content in Wettbewerbe am GCG on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    
+	<atom:link href="https://eesev9ie.github.io/de/wettbewerbe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mathematikolympiade</title>
+      <link>https://eesev9ie.github.io/de/wettbewerbe/mo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/wettbewerbe/mo/</guid>
+      <description>Über die Olympiade Die Mathematik-Olympiade ist ein jährlich bundesweit angebotener Wettbewerb, an dem über 200.</description>
+    </item>
+    
+  </channel>
+</rss>

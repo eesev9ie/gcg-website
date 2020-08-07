@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CantorTechnik on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/tags/cantortechnik/</link>
+    <description>Recent content in CantorTechnik on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    <lastBuildDate>Sat, 18 Jul 2020 09:08:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://eesev9ie.github.io/de/tags/cantortechnik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entwicklung neuer Website</title>
+      <link>https://eesev9ie.github.io/de/blog/new-site/</link>
+      <pubDate>Sat, 18 Jul 2020 09:08:19 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/blog/new-site/</guid>
+      <description>Neuanfang Seit Anfang Juli arbeite ich an einer neuen Website für das Georg-Cantor-Gymnasium in Halle und stelle ihnen damit die erste Vorversion vor.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,16 +8,15 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://code.cdn.mozilla.net/fonts/fira.css");
 @font-face {
-  font-family: 'futura-bold';
-  src: url("../fonts/Futura-Bold.woff") format("woff");
+  font-family: 'Fira Sans';
   font-weight: normal;
   font-style: normal; }
 
 body {
   line-height: 1.2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #5c5c77; }
@@ -27,11 +26,11 @@ p, .paragraph {
   color: #5c5c77;
   font-size: 15px;
   line-height: 1.9;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e4b;
-  font-family: "futura-bold";
+  font-family: "Fira Sans";
   font-weight: 700;
   line-height: 1.2; }
 
@@ -68,7 +67,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   padding: 15px 40px;
   border-radius: 0;
   font-weight: 500;
@@ -162,6 +161,23 @@ body {
 ::selection {
   background: #ffcd6e;
   color: #fff; }
+
+.list-items ul {
+  padding-left: 0; }
+  .list-items ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: none; }
+    .list-items ul li::before {
+      position: absolute;
+      content: "\e65d";
+      font-family: "themify";
+      font-size: 14px;
+      left: 0;
+      top: 1px;
+      color: #ffbc3b;
+      transition: .3s ease; }
 
 /* preloader */
 .preloader {
@@ -285,7 +301,7 @@ a h4:hover {
   color: #1e1e4b !important; }
 
 .font-secondary {
-  font-family: "futura-bold"; }
+  font-family: "Fira Sans"; }
 
 .mb-10 {
   margin-bottom: 10px !important; }
@@ -564,7 +580,7 @@ link:focus,
   color: #1e1e4b;
   transition: .2s ease;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Fira Sans", sans-serif; }
   @media (max-width: 991px) {
     .navbar .dropdown-item {
       text-align: center; } }
@@ -725,7 +741,7 @@ link:focus,
 .card-date {
   position: absolute;
   background: #ffbc3b;
-  font-family: "futura-bold";
+  font-family: "Fira Sans";
   text-align: center;
   padding: 10px;
   color: #fff;

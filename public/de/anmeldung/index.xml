@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anmeldung on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/anmeldung/</link>
+    <description>Recent content in Anmeldung on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    
+	<atom:link href="https://eesev9ie.github.io/de/anmeldung/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anmeldung</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/anmeldung-formular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/anmeldung-formular/</guid>
+      <description>Bis zum 11.02.2020 müssen:
+ eine schriftliche Anmeldung eine Kopie des Halbjahreszeugnisses die Schullaufbahnerklärung  am Georg-Cantor-Gymnasium eingereicht werden.</description>
+    </item>
+    
+    <item>
+      <title>Aufnahmeprüfung</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/aufnahmepr%C3%BCfung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/aufnahmepr%C3%BCfung/</guid>
+      <description>Zur Aufnahme am Georg-Cantor-Gymnasium muss eine Aufnahmeprüfung absolviert werden, die aus:</description>
+    </item>
+    
+    <item>
+      <title>Ergebnisse</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/ergebnisse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/ergebnisse/</guid>
+      <description>Bis zum 20.04.2020 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.</description>
+    </item>
+    
+  </channel>
+</rss>

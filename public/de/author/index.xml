@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/author/</link>
+    <description>Recent content in Authors on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    
+	<atom:link href="https://eesev9ie.github.io/de/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CantorTechnik AG</title>
+      <link>https://eesev9ie.github.io/de/author/cantortechnik-ag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/author/cantortechnik-ag/</guid>
+      <description>Wir sind eine AG am Georg-Cantor-Gymnasium, welche sich mit allen Themen rund um Digitalität am Georg-Cantor-Gymnasium beschäftigt.</description>
+    </item>
+    
+    <item>
+      <title>Denys Konovalov</title>
+      <link>https://eesev9ie.github.io/de/author/denys-konovalov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/author/denys-konovalov/</guid>
+      <description>Ich bin ein Schüler der 6. Klasse am Georg-Cantor-Gymnasium in Halle(Saale).</description>
+    </item>
+    
+  </channel>
+</rss>

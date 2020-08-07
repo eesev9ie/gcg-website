@@ -1,20 +1,24 @@
 {{ define "main" }}
 
-<!-- schulchronik -->
+<!-- content -->
 <section class="section">
   <div class="container">
-    <!-- course list -->
+    <div class="row">
+      <div class="col-12">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="container">
     <div class="row filtr-container">
-      <!-- course item -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "schulchronik" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
   </div>
 </section>
-<!-- /courses -->
+<!-- /content -->
 
 {{ end }}

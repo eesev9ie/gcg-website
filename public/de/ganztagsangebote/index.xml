@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unsere Ganztagsangebote on Georg-Cantor-Gymnasium</title>
+    <link>https://eesev9ie.github.io/de/ganztagsangebote/</link>
+    <description>Recent content in Unsere Ganztagsangebote on Georg-Cantor-Gymnasium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
+    <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
+    
+	<atom:link href="https://eesev9ie.github.io/de/ganztagsangebote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blender Game</title>
+      <link>https://eesev9ie.github.io/de/ganztagsangebote/blendergame/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/ganztagsangebote/blendergame/</guid>
+      <description>Über die AG Das freie 3D OpenSource-Programm &amp;ldquo;Blender&amp;rdquo; hat eine eigene kostenlose Spiele-Engine mit deren Hilfe 3D Computerspiele entwickelt werden können.</description>
+    </item>
+    
+    <item>
+      <title>CantorTechnik</title>
+      <link>https://eesev9ie.github.io/de/ganztagsangebote/cantortechnik/</link>
+      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/ganztagsangebote/cantortechnik/</guid>
+      <description>Über die AG CantorTechnik ist eine Arbeitsgemeinschaft für in Technik interessierte Schüler am GCG.</description>
+    </item>
+    
+    <item>
+      <title>Mathematik(Klasse 5)</title>
+      <link>https://eesev9ie.github.io/de/ganztagsangebote/mathematik-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/ganztagsangebote/mathematik-5/</guid>
+      <description>Über die AG Im Rahmen des mathematisch-naturwissenschaftlichen Schwerpunkts unserer Schule bieten wir Begabtenförderungsangebote an, in denen Schüler z.</description>
+    </item>
+    
+    <item>
+      <title>Name der AG</title>
+      <link>https://eesev9ie.github.io/de/ganztagsangebote/vorlage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/ganztagsangebote/vorlage/</guid>
+      <description>Lorem ipsum Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Nawigator</title>
+      <link>https://eesev9ie.github.io/de/ganztagsangebote/nawigator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/ganztagsangebote/nawigator/</guid>
+      <description>Über die AG Im Rahmen des mathematisch-naturwissenschaftlichen Schwerpunkts unserer Schule bieten wir Begabtenförderungsangebote in Biologie, Chemie und Physik an.</description>
+    </item>
+    
+  </channel>
+</rss>
