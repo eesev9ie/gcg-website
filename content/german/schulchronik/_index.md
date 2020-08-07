@@ -5,9 +5,7 @@ draft: false
 bg_image: "images/backgrounds/page-title.png"
 ---
 ---
-![Cantor](/images/schulchronik/cantor1.jpg)
-## "Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."
-**aus 'David Hilbert, 'Über das Unendliche', Math. Ann. 95**  
+<img style="float: left; border: 0; margin: 10px;" src="/images/schulchronik/cantor1.jpg" border="0" width="268" height="326" /><h1>"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</h1><p>aus 'David Hilbert, 'Über das Unendliche', Math. Ann. 95</p><br>
 
 ---
 
@@ -27,3 +25,5 @@ bg_image: "images/backgrounds/page-title.png"
 {{< element-item link="/de/über-chronisten" title="Chronistenteam" >}}
 
 ---
+
+## Chronik

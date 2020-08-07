@@ -3,8 +3,6 @@ title: "Über Georg Cantor"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.png"
-type: "pages"
-layout: "single.html"
 ---
 
 ![Cantor Kopf](/images/about/cantor-kopf.png)
