@@ -1,6 +1,5 @@
 ---
-title: " Achtung, öffnet in einem neuen Fenster. DruckenE-Mail
-Lehrerkollegium der Spezialschule Georg Cantor Gymnasium"
+title: "Lehrerkollegium der Spezialschule Georg Cantor Gymnasium"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.png"
