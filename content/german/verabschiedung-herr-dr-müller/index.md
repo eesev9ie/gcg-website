@@ -2,9 +2,9 @@
 title: "Verabschiedung Herr OStD Dr. Müller"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/image.png"
+image: "media/image.png"
 type: "pages"
 layout: "single.html"
 ---
@@ -92,7 +92,7 @@ anschließend
 
 Das sagte Herr OStD. Dr. Müller am 12. Juli 2014:
 
-![Danksagung](/images/schulchronik/2014/danksagung.jpg)
+![Danksagung](/media/schulchronik/2014/danksagung.jpg)
 
 ### "Cheflied"
 
@@ -167,8 +167,8 @@ I Did It My Way.
 
 ## Zeitungsartikel
 
-![Zeitungsartikel Schulleiter in Öl](/images/schulchronik/2014/zeitung.jpg)
+![Zeitungsartikel Schulleiter in Öl](/media/schulchronik/2014/zeitung.jpg)
 
 ## Fotos
 
-{{< gallery dir="/images/schulchronik/2014/galerie" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/schulchronik/2014/galerie" />}}{{< load-photoswipe >}}

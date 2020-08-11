@@ -2,9 +2,9 @@
 title: Entwicklung neuer Website
 date: 2020-07-18T09:08:19.267Z
 draft: false
-bg_image: images/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.png
 description: Seit mehreren Tagen ist die neue Schulwebsite in Entwicklung.
-image: images/image.png
+image: media/image.png
 author: Denys Konovalov
 categories:
   - Digitalisierung

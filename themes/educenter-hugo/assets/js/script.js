@@ -22,7 +22,7 @@
 
 
 
-  // Background-images
+  // Background-media
   $('[data-background]').each(function () {
     $(this).css({
       'background-image': 'url(' + $(this).data('background') + ')'

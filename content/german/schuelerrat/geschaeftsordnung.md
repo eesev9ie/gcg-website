@@ -2,7 +2,7 @@
 title: "Geschäftsordnung"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 ---
 
@@ -24,14 +24,12 @@ Alle Einladungen und Informationen sind rechtzeitig durch den Beauftragten weite
 
 Der Schülerrat des Georg-Cantor-Gymnasiums untergliedert sich in vier ständige Organe:
 
-<div class="list-items">
-<ul>
-<li>Vorstand</li>
-<li>Vollversammlung</li>
-<li>Delegation zum Stadtschülerrat</li>
-<li>Beirat des Schülerrates</li>
-</ul>
-</div>
+{{% content %}}
+- Vorstand
+- Vollversammlung
+- Delegation zum Stadtschülerrat
+- Beirat des Schülerrates
+{{% /content %}}
 
 Des Weiteren können nach Bedarf Ausschüsse als weitere, nicht ständige Organe einberufen werden.
 
@@ -39,11 +37,11 @@ Des Weiteren können nach Bedarf Ausschüsse als weitere, nicht ständige Organe
 Der Vorstand ist das zweithöchste beschlussfassende Organ des Schülerrates des Georg-Cantor-Gymnasiums.
 Der Vorstand besteht aus:
 
-<div class="list-items">
-<ul>
-<li>einem Vorsitzenden, welcher den Titel Schülersprecher tragen darf. Der Schülersprecher übernimmt insbesondere die Aufgaben- und Informationsverteilung an andere Vorstandsmitglieder</li>
-<li>einem/ zwei stellvertretenden Vorsitzenden</li>
-<li>weiteren nach Bedarf einberufenen Vorstandsmitgliedern (Beisitzer)</li>
+{{% content %}}
+- einem Vorsitzenden, welcher den Titel Schülersprecher tragen darf. Der Schülersprecher übernimmt insbesondere die Aufgaben- und Informationsverteilung an andere Vorstandsmitglieder
+- einem/ zwei stellvertretenden Vorsitzenden
+- weiteren nach Bedarf einberufenen Vorstandsmitgliedern (Beisitzer)
+{{% /content %}}
 
 Die Wahl des Vorstandes erfolgt aus den Reihen des Schülerrates des Georg-Cantor-Gymnasiums und auf Wunsch als geheime Wahl.
 

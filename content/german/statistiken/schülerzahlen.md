@@ -2,7 +2,7 @@
 title: "Schülerzahlen"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 layout: "single.html"
 ---
@@ -44,6 +44,6 @@ layout: "single.html"
 
 ## Schülerzahlen
 
-![Schülerzahlen Diagramm](/images/statistiken/schuelerzahlen_diagramm1.jpg)
+![Schülerzahlen Diagramm](/media/statistiken/schuelerzahlen_diagramm1.jpg)
 
-![Schülerzahlen Diagramm](/images/statistiken/schuelerzahlen_diagramm2.jpg)
+![Schülerzahlen Diagramm](/media/statistiken/schuelerzahlen_diagramm2.jpg)

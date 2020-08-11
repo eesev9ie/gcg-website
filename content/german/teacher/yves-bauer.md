@@ -2,11 +2,11 @@
 title: "Yves Bauer"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "Herr Bauer ist der Leiter der Arbeitsgemeinschaften CantorTechnik und Blender Game am Georg-Cantor-Gymnasium."
 # teacher portrait
-image: "images/teachers/image.png"
+image: "media/teachers/image.png"
 # course
 courses: ["Ganztagsangebote"]
 # biography

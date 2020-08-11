@@ -2,11 +2,11 @@
 title: "Frau Anett Tuppack"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # teacher portrait
-image: "images/teachers/tuppack.jpg"
+image: "media/teachers/tuppack.jpg"
 # course
 courses: ["Mathematik/Physik/Informatik/Astronomie"]
 # biography

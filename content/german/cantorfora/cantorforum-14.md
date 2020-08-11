@@ -3,9 +3,9 @@ title: "14. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum14.png"
+image: "media/cantorfora/cantorforum14.png"
 description: "Katarina Forkmann: Placebo und Nocebo, die innere Apotheke"
 ---
 
@@ -23,4 +23,4 @@ die – wie immer – zum Ende des Cantorforums, indem wir wieder Erstaunliches 
 
 Nikolas Weigt, 2015
 
-{{< gallery dir="/images/cantorfora/cantorforum_14" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_14" />}}{{< load-photoswipe >}}

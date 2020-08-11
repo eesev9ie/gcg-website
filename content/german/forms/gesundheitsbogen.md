@@ -3,11 +3,11 @@ title: "Gesundheitsbogen Coronavirus"
 date: 2020-07-09T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # Research image
-image: "images/forms/corona.jpg"
+image: "media/forms/corona.jpg"
 # type
 type: "forms"
 ---
@@ -16,9 +16,7 @@ Für den Schutz unserer Schüler und Lehrer vor dem Coronavirus muss jede Woche 
 
 Bei Anfrage können die Informationen an die Gesundheitsbehörden weitergegeben werden.
 
-## Download
-
-Der Gesundheitsbogen kann [hier](/images/forms/Gesundheitsbogen_Coronavirus.pdf) heruntergeladen werden.
+{{< download link="/media/forms/Gesundheitsbogen_Coronavirus.pdf" title="Gesundheitsbogen" >}}
 
 ## Datenschutzhinweise
 

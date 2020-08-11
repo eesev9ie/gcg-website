@@ -3,9 +3,9 @@ title: "15. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum15.png"
+image: "media/cantorfora/cantorforum15.png"
 description: "Markus Bauersfeld und Tom Gebhardt: Abi und dann?"
 ---
 
@@ -25,4 +25,4 @@ Danke an Tom Gebhardt und Marcus Bauersfeld.
 
 Lavinia Burkhardt, 2015
 
-{{< gallery dir="/images/cantorfora/cantorforum_15" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_15" />}}{{< load-photoswipe >}}

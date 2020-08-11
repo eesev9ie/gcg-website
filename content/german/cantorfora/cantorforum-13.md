@@ -3,9 +3,9 @@ title: "13. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e13.png"
+image: "media/cantorfora/cantorforum_e13.png"
 description: "Maximilian Appel: Ozeanien"
 ---
 
@@ -23,4 +23,4 @@ So blieb uns nur noch zu sagen: „Chakka! Und vielen Dank Max.“
 
 Nikolas Weigt 2015
 
-{{< gallery dir="/images/cantorfora/cantorforum_13" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_13" />}}{{< load-photoswipe >}}

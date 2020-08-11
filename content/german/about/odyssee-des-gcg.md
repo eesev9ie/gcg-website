@@ -2,7 +2,7 @@
 title: "Odyssee des GCG - von der „Schimmelschule“ zum „Schmuckstück“"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 layout: "single.html"
 ---

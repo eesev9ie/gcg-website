@@ -3,9 +3,9 @@ title: "7. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e07.bmp"
+image: "media/cantorfora/cantorforum_e07.bmp"
 description: "''Einmal Sushi, bitte - Jugendbotschafter in Japan'' von Maximilian König"
 ---
 
@@ -15,16 +15,14 @@ Als einer von zehn Jugendlichen, wurde Maximilian König von der Robert-Bosch-St
 
 Nachdem die Jugendbotschafter in den Bus nach Tokyo gestiegen waren und kurz darauf bereits das Diesneyland Tokyo und einen “Hello Kitty”-Bus gesehen hatten, war für sie definitiv klar- sie waren in Japan. Damit leitete Maximilian König seinen Vortrag ein und stellte die Themen vor, über die er und die anderen Jugendbotschafter sich besonders informiert hatten. Diese waren:
 
-<div class="list-items">
-<ul>
-<li>Tokyo als Millionenstadt</li>
-<li>das Schul- und Universitätssystem von Japan</li>
-<li>Schreine, Shintō und „Religion“ im Allgemeinen</li>
-<li>das UNESCO- Weltkulturerbe Nikkō</li>
-<li>Wirtschaft & Politik</li>
-<li>Geschmischtes</li>
-</ul>
-</div>
+{{% content %}}
+- Tokyo als Millionenstadt
+- das Schul- und Universitätssystem von Japan
+- Schreine, Shintō und „Religion“ im Allgemeinen
+- das UNESCO- Weltkulturerbe Nikkō
+- Wirtschaft & Politik
+- Geschmischtes
+{{% /content %}}
 
 Am meisten Interessenten konnten das Schul- und Universitätssystem, Schreine und Shintō, sowie die die Tempelanlage Nikkō verzeichnen. Die anwesenden Lehrer wollten als erstes etwas über die schulische Ausbildung japanischer Jugendlicher wissen.
 
@@ -76,4 +74,4 @@ Wir danken den Organisatoren und Ehemaligen Marco Garten, Stefan Schwarz, Thomas
 
 Max Appel, 2011
 
-{{< gallery dir="/images/cantorfora/cantorforum_7" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_7" />}}{{< load-photoswipe >}}

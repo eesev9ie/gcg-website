@@ -1,9 +1,9 @@
 ---
 title: CantorTechnik AG
-bg_image: /images/slide1.jpg
+bg_image: /media/slide1.jpg
 description: " "
 email: cantortechnik@protonmail.com
-image: /images/icon.png
+image: /media/icon.png
 social:
   - icon: ti-youtube
     link: https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g

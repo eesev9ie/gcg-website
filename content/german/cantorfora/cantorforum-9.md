@@ -3,9 +3,9 @@ title: "9. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e09.bmp"
+image: "media/cantorfora/cantorforum_e09.bmp"
 description: "''Weihnachten – eine naturwissenschaftliche Betrachtung'' von Stefan Schwarz"
 ---
 
@@ -15,7 +15,7 @@ In beschaulicher Runde machen sich die Zuhörer über das Weihnachtsgebäck her,
 
 Er fängt mit den Heiligen Drei Königen an. Mit Kaspar, Melchior und Baltasar den drei Weisen aus dem Morgenland, die Gold, Weihrauch und Mhyrre mitbrachten. Den beiden Weißen und dem Schwarzen, die laut Monty Python, dabei zunächst Brian anbeteten. Schon die Zahl hat wohl recht wenig mit der Wirklichkeit zu tun und ist wahrscheinlich nur erfunden. Auch die Namen hat sich wohl nur jemand ausgedacht, damit man sich die Buchstaben für „christus mansionem benedicat“ (lat. für „Christus segne dieses Haus“) etwas leichter merken kann. Doch erstaunlich ist, dass sie sich im Lauf der Zeit änderten, den eigentlich war nur von einem Mann mit weißem Bart, der das Greisenalter darstellten, ein Mann mit braunem Haar und Bart, der das Erwachsenen-alter darstellte, und einem jungen Mann mit schwarzen Haaren, der die Jugend darstellte, die Rede. Einen Dunkelhäutigen Mann hat es anfangs nicht gegeben. Erst später wurden die drei Repräsentanten ihrer Kontinente Asien, Europa und Afrika, weshalb einer von ihnen dunkle Haut bekommen musst. Es gibt sogar Bildnisse, auf denen die Hautfarbe nachträglich geändert wurde.
 
-<img style="float: left; border: 0; margin: 10px;" src="/images/cantorfora/cantorforum09_sonder.png" border="0" width="211" height="282" />Stefan Schwarz hält sein Versprechen und stellt weiter die biblische Erzählung infrage. Der Stern von Bethlehem leitete die Weisen zum berühmten Stall, in dem der menschgewordene Gott in einer Futterkrippe lag. Doch dieser „Stern“ muss über Wochen hinweg immer an der gleichen Stelle am Himmel gestanden haben. Zudem muss er außergewöhnlich sein, denn ein einfacher Stern, der schon seit Jahrhunderten zu sehen ist, gibt keine Auskunft über den Zeitpunkt, zu dem der Retter geboren werden soll. Es hätte alles schon vor Jahren passiert oder erst in der Zukunft geschehen können, als die Männer aufbrachen. Es bleiben also nur Kometen, Supernovae, und sich überlagernde Planeten. Kometen scheiden aber aus, da sie zu unbeständig sind und man damals schon von diesen Objekten wusste. Auch eine Supernova wäre zu unbeständig. Bleibt noch die Überlagerung von Planeten. Sie wäre in allen Punkten passend. Allerdings müsste man sich bei einer relevanten Überlagerung entscheiden: Entweder Stern oder 24. Dezember im Jahre Null. Planeten, die optisch nicht mehr auseinander zu halten sind, gab es zu jenem Datum nämlich nicht. <br><br>
+<img style="float: left; border: 0; margin: 10px;" src="/media/cantorfora/cantorforum09_sonder.png" border="0" width="211" height="282" />Stefan Schwarz hält sein Versprechen und stellt weiter die biblische Erzählung infrage. Der Stern von Bethlehem leitete die Weisen zum berühmten Stall, in dem der menschgewordene Gott in einer Futterkrippe lag. Doch dieser „Stern“ muss über Wochen hinweg immer an der gleichen Stelle am Himmel gestanden haben. Zudem muss er außergewöhnlich sein, denn ein einfacher Stern, der schon seit Jahrhunderten zu sehen ist, gibt keine Auskunft über den Zeitpunkt, zu dem der Retter geboren werden soll. Es hätte alles schon vor Jahren passiert oder erst in der Zukunft geschehen können, als die Männer aufbrachen. Es bleiben also nur Kometen, Supernovae, und sich überlagernde Planeten. Kometen scheiden aber aus, da sie zu unbeständig sind und man damals schon von diesen Objekten wusste. Auch eine Supernova wäre zu unbeständig. Bleibt noch die Überlagerung von Planeten. Sie wäre in allen Punkten passend. Allerdings müsste man sich bei einer relevanten Überlagerung entscheiden: Entweder Stern oder 24. Dezember im Jahre Null. Planeten, die optisch nicht mehr auseinander zu halten sind, gab es zu jenem Datum nämlich nicht. <br><br>
 
 
 Da reichte es Stefan und wandte sich den nicht-biblischen Dingen zu. Er erzählt zum Beispiel von der Herkunft der Weihnachtsbäume. Der Brauch stammt aus Deutschland und wurde eigentlich von der katholischen Kirche als heidnisch bezeichnet. Doch die Zeiten ändern sich und so importieren wir unseren Weihnachtsbaum, anstatt ihn bei uns zu fällen, und vor einigen Jahren stand der größte Weihnachtsbaum wo? Im Vatikan... Auch die Geschichte von Christkind und Weihnachtsmann ist erstaunlich. Der Weihnachtsmann war eine Erfindung - nicht von Coca Cola - sondern von der katholischen Kirche und das Christkind ein Gegenmodell von Luther. Heute bringt das Christkind den Katholiken und der Weihnachtsmann den Protestanten die Geschenke, denn das, was mein Nachbar hat, will ich auch und so hat man am Ende getauscht.
@@ -28,7 +28,7 @@ Doch nachdem Stefan den Glauben an viele Weihnachtserscheinungen getrübt hat, m
 
 Nikolas Weigt, 2011
 
-{{< gallery dir="/images/cantorfora/cantorforum_9" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_9" />}}{{< load-photoswipe >}}
 
 ## IX. Cantorforum – Weihnachten
 ***Stefan Schwarz***

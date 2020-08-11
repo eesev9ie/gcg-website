@@ -3,9 +3,9 @@ title: "8. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e08.bmp"
+image: "media/cantorfora/cantorforum_e08.bmp"
 description: "''Energiewende? Ja danke! Aber ohne mich!'' von Andreas Bader"
 ---
 
@@ -31,4 +31,4 @@ Danke an Andreas für dieses interessante Cantorforum.
 
 Nikolas Weigt 2011
 
-{{< gallery dir="/images/cantorfora/cantorforum_8" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_8" />}}{{< load-photoswipe >}}

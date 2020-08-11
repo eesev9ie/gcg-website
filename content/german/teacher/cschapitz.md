@@ -2,11 +2,11 @@
 title: "Frau Schapitz"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
 # teacher portrait
-image: "images/teachers/cschapitz.png"
+image: "media/teachers/cschapitz.png"
 # course
 courses: ["Fremdsprachen"]
 # biography

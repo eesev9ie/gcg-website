@@ -4,11 +4,11 @@ backend:
   branch: master
   site_domain: eesev9ie.netlify.app
 
-media_folder: "static/images"
-public_folder: "/images"
+media_folder: "static/media"
+public_folder: "/media"
 site_url: https://eesev9ie.github.io
 display_url: https://eesev9ie.github.io
-logo_url: https://eesev9ie.github.io/images/logo_y.svg
+logo_url: https://eesev9ie.github.io/media/logo_y.svg
 locale: "de"
 
 collections:
@@ -21,7 +21,7 @@ collections:
      preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
@@ -45,9 +45,9 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/images/image.png"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.png"}
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
@@ -78,9 +78,9 @@ collections:
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/teachers/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/teachers/image.png", required: false}
       - {label: "Fachbereich", name: "course", widget: "string", hint: "Bei Ganztagsangeboten Ganztagsangebote/Bereich"}
       - {label: "Beschreibung", name: "bio", widget: "text"}
       - label: "Fächer/Arbeitsgemeinschaften"
@@ -112,9 +112,9 @@ collections:
       - {label: "Veröffentlichungsdatum", name: "publishDate", widget: "datetime"}
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Ort", name: "location", widget: "string", default: "Georg-Cantor-Gymnasium, Halle(Saale)"}
       - {label: "Type", name: "type", widget: "hidden", default: "event"}
       - {label: "Text", name: "body", widget: "markdown"}
@@ -130,9 +130,9 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "forms"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "anmeldung-de"
@@ -157,9 +157,9 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Jahr", name: "year", widget: "string"}
       - {label: "Beschreibung", name: "bio", widget: "text"}
       - label: "Kontaktdaten/Soz. Netzwerke"
@@ -182,9 +182,9 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Kategorie", name: "category", widget: "string"}
       - label: "Leiter"
         name: "teacher"
@@ -210,7 +210,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "notice"}
       - {label: "Text", name: "body", widget: "markdown"}
@@ -224,9 +224,9 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Fach", name: "category", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string"}
@@ -242,7 +242,7 @@ collections:
         file: "content/german/blog/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "about-index"
         label: "Über die Schule"
@@ -250,8 +250,8 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
-          - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "anmeldung-index"
@@ -260,8 +260,8 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
-          - {label: "Bild", name: "image", widget: "image", default: "/images/image.png", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "cantorpreis-index"
@@ -270,7 +270,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "contact-index"
         label: "Kontakt"
@@ -278,7 +278,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "event-index"
@@ -287,7 +287,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "forms-index"
         label: "Formulare|Vorlagen"
@@ -295,7 +295,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "ganztagsangebote-index"
         label: "Ganztagsangebote"
@@ -303,7 +303,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "impressum"
         label: "Impressum"
@@ -311,7 +311,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown"}
@@ -321,7 +321,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "teacher-index"
         label: "Lehrer|AG-Leiter"
@@ -329,7 +329,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "wettbewerbe-index"
         label: "Wettbewerbe"
@@ -337,5 +337,5 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/images/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}

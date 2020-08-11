@@ -3,9 +3,9 @@ title: "1. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e01.bmp"
+image: "media/cantorfora/cantorforum_e01.bmp"
 description: "''Auf den Spuren von Georg Cantor'' von Dr. Helmut Podhaisky und Dr. Alf Gerisch"
 ---
 
@@ -19,4 +19,4 @@ Das nächste Forum wird in der Festwoche im März stattfinden, wer eingeladen wi
 
 Thomas Tannert, 2009
 
-{{< gallery dir="/images/cantorfora/cantorforum_1" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_1" />}}{{< load-photoswipe >}}

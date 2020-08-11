@@ -3,9 +3,9 @@ title: "3. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e03.bmp"
+image: "media/cantorfora/cantorforum_e03.bmp"
 description: "''Abi - und dann...?'' Teil 2 von Johannes Herzog"
 ---
 
@@ -22,4 +22,4 @@ Später dann lassen sich die vier Ehemaligen in Unterhaltungen verwickeln und mi
 
 Elsa Plathe, 2009
 
-{{< gallery dir="/images/cantorfora/cantorforum_3" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_3" />}}{{< load-photoswipe >}}

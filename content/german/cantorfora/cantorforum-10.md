@@ -3,9 +3,9 @@ title: "10. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e10.bmp"
+image: "media/cantorfora/cantorforum_e10.bmp"
 description: "''Technik und Traditon in Korea'' Paula Hähndel und Dorothee Henke"
 ---
 
@@ -25,4 +25,4 @@ Zum Schluss sagen wir heute statt „Danke, Anke!“ einfach mal:
 
 Nikolas Weigt, 2012
 
-{{< gallery dir="/images/cantorfora/cantorforum_10" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_10" />}}{{< load-photoswipe >}}

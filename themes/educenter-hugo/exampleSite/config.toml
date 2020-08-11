@@ -120,7 +120,7 @@ URL = "research"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "media/logo.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -138,7 +138,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "media/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
@@ -153,7 +153,7 @@ enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
-map_marker = "images/marker.png" # marker size 37*55 px
+map_marker = "media/marker.png" # marker size 37*55 px
   
 ############################# social site ########################
 [[params.social]]

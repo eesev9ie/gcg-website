@@ -3,9 +3,9 @@ title: "16. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum16.png"
+image: "media/cantorfora/cantorforum16.png"
 description: "Stefan Schwarz: Mysterium Stipendium"
 ---
 
@@ -31,4 +31,4 @@ Zum Schluss soll noch gesagt sein, dass es da ein Vorurteil gibt, dass uns alle 
 
 Lavinia Burkhardt, 2016
 
-{{< gallery dir="/images/cantorfora/cantorforum_16" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_16" />}}{{< load-photoswipe >}}

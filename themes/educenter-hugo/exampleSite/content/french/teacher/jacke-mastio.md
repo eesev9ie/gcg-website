@@ -2,11 +2,11 @@
 title: "Jacke Mastio"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # teacher portrait
-image: "images/teachers/teacher-2.jpg"
+image: "media/teachers/teacher-2.jpg"
 # course
 course: "Computer Science"
 # biography

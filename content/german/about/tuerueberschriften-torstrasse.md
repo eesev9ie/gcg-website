@@ -2,7 +2,7 @@
 title: "Signaturen der Zeit"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 layout: "single.html"
 ---
@@ -20,7 +20,7 @@ In späterer Zeit wurde dieser Wandel auf die populäre Kurzformel „Panta rhei
 
 ## „Bedenke das Ende“
 
-![Bedenke das Ende](/images/about/bedenke-ende.png)
+![Bedenke das Ende](/media/about/bedenke-ende.png)
 
 Sirach 7, 40 steht:
 Was du thust, (so) bedenke das Ende.
@@ -54,26 +54,26 @@ und mach uns zu Himmelserben!
 
 Dies ist der Originaltext eines Kirchenliedes, der in Abwandlung auf dem folgenden Bild zu sehen ist.
 
-![Segenslied](/images/about/nichtlesbar.png)
+![Segenslied](/media/about/nichtlesbar.png)
 
 Deinen Ausgang segne Gott war das letzte, was die Schüler lasen, wenn sie die Schule verließen.
 Dies zeigt den Schülern, dass sie auch auf ihren Wegen außerhalb der Schule unter Gottes Schutz standen.
 
 ## „Erkenne dich selbst“
 
-![Erkenne dich selbst](/images/about/erkenne.png)
+![Erkenne dich selbst](/media/about/erkenne.png)
 
 Am Tempel des Apoll in Delphi war in der Antike deutlich und für alle sichtbar ein kurzer und markanter Spruch zu lesen: "Gnothi Seautón" - "Erkenne dich selbst". Selbsterkenntnis, als tägliche Übung, sollte der Anfang sein, die Basis für jedes sinnvolle Denken über Gott und die Welt.
 
 
 ## „Licht, Liebe, Leben“
 
-![Licht, Liebe, Leben](/images/about/licht.png)
+![Licht, Liebe, Leben](/media/about/licht.png)
 
 Unter den Forschern verschiedenster Disziplinen, die sich um die Erfassung Herders mühen, wird viel gestritten werden. Das darf kaum anders sein, so es sich hier um Wissenschaft handelt, die nach dem Motto verfährt: An allem ist zu zweifeln. Ein Grundsatz aber dürfte die mannigfaltigen Thesen und die unterschiedlichen Fächer einen: Herder als Gegenstand der Forschung läßt sich nur in einer gemeinsamen Anstrengung von Historikern und Theologen, Literaturwissenschaftlern und Philosophen erschließen. Dies lohnt sich, weil Herder, wie sein Wahlspruch „Licht, Liebe, Leben“ zusammenfasst, das Licht der theologisch-philosophischen Aufklärung, die Liebe, die aus dem reflektierten Glauben wirkt, und somit das humane Leben, das beides notwendig braucht, als Einheit erkannt hat. Diese Einheit und die klassische Fülle der Aspekte kann und darf aber nicht historistisch auf die Erforschung der Weimarer Klassik und ihres großen Ideengebers beschränkt bleiben. Wie behindert beschränkte Forschung bleibt, lässt sich an der Geschichte dieses Ortes und der Geschichte der früheren Nationalen Forschungs- und Gedenkstätten besonders gut ablesen. Darum halte ich die sich mehrenden Versuche von Universitätsleitungen in Deutschland für hoch gefährlich, die Theologie zu einem Steinbruch für Sparmaßnahmen zu machen, ja sie als Fakultät ganz abzuschaffen. Dies würde heute niemandem für die Fächer Physik und Chemie einfallen, die ähnliche Sorgen um ihre Studienanfänger hatten
 
 ## „Streben ist Leben“
 
-![Streben ist Leben](/images/about/streben.png)
+![Streben ist Leben](/media/about/streben.png)
 
 Dieser Spruch hat für Schulalltag die Bedeutung, dass die Schüler nach Wissen streben sollten, damit sie bessere Chancen in ihrem zukünftigen Leben haben. Somit ist das Streben eine Notwendigkeit fürs Leben.

@@ -2,9 +2,9 @@
 title: "Anmeldung"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # image
-image: "images/about/about-page.jpg"
+image: "media/about/about-page.jpg"
 # meta description
 description : "Hier finden Sie die Informationen zur Anmeldung am Georg-Cantor-Gymnasium"
 ---

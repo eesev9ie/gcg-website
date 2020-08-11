@@ -2,11 +2,11 @@
 title: "Herr Tony Stein"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # teacher portrait
-image: "images/teachers/stein.jpg"
+image: "media/teachers/stein.jpg"
 # course
 courses: ["Mathematik/Physik/Informatik/Astronomie", "Sport"]
 # biography

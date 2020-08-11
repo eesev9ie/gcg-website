@@ -2,10 +2,10 @@
 title: "Schulchronik"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 ---
 ---
-<img style="float: left; border: 0; margin: 10px;" src="/images/schulchronik/cantor1.jpg" border="0" width="268" height="326" /><h1>"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</h1><p>aus 'David Hilbert, 'Über das Unendliche', Math. Ann. 95</p><br>
+<img style="float: left; border: 0; margin: 10px;" src="/media/schulchronik/cantor1.jpg" border="0" width="268" height="326" /><h1>"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</h1><p>aus 'David Hilbert, 'Über das Unendliche', Math. Ann. 95</p><br>
 
 ---
 

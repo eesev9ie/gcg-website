@@ -189,7 +189,7 @@ URL = "forms"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "media/logo.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -208,7 +208,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "media/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 ##[params.subscription]

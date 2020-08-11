@@ -2,11 +2,11 @@
 title: "Frau B. Enzian"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # teacher portrait
-image: "images/teachers/enzian.jpg"
+image: "media/teachers/enzian.jpg"
 # course
 courses: ["Mathematik/Physik/Informatik/Astronomie", "Geografie/Ethik/ev. Religion"]
 # biography

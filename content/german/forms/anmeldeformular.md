@@ -3,20 +3,18 @@ title: "Aufnahmeantrag"
 date: 2020-07-12T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # Research image
-image: "images/image.png"
+image: "media/image.png"
 # type
 type: "forms"
 ---
 
 Hier kann das Anmeldeformular für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.
 
-## Download
-
-[Aufnahmeantrag](/images/forms/Aufnahmeantrag.pdf)
+{{< download link="/media/forms/Aufnahmeantrag.pdf" title="Aufnahmeantrag" >}}
 
 ## Datenschutzhinweise
 

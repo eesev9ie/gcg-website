@@ -2,11 +2,11 @@
 title: "Herr Dr. Andreas Koch"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""
 # teacher portrait
-image: "images/teachers/koch.jpg"
+image: "media/teachers/koch.jpg"
 # course
 courses: ["Mathematik/Physik/Informatik/Astronomie"]
 # biography

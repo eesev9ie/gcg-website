@@ -2,10 +2,10 @@
 title: "Über Georg Cantor"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 ---
 
-![Cantor Kopf](/images/about/cantor-kopf.png)
+![Cantor Kopf](/media/about/cantor-kopf.png)
 
 Georg Cantor (03.03.1845 - 06.01.1918)
 

@@ -7,11 +7,11 @@ date: "2030-03-09T15:27:17+06:00"
 # post save as draft
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Event image
-image: "images/events/event-2.jpg"
+image: "media/events/event-2.jpg"
 # location
 location: "Dhanmondi, Dhaka"
 # entry fee
@@ -22,22 +22,22 @@ apply_url : "#"
 speaker:
   # speaker loop
   - name : "Jack Mastio"
-    image : "images/event-speakers/speaker-1.jpg"
+    image : "media/event-speakers/speaker-1.jpg"
     designation : "Teacher"
 
   # speaker loop
   - name : "John Doe"
-    image : "images/event-speakers/speaker-2.jpg"
+    image : "media/event-speakers/speaker-2.jpg"
     designation : "Teacher"
 
   # speaker loop
   - name : "Randy Luis"
-    image : "images/event-speakers/speaker-3.jpg"
+    image : "media/event-speakers/speaker-3.jpg"
     designation : "Teacher"
 
   # speaker loop
   - name : "Alfred Jin"
-    image : "images/event-speakers/speaker-4.jpg"
+    image : "media/event-speakers/speaker-4.jpg"
     designation : "Teacher"
 
 # type

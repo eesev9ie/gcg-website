@@ -3,9 +3,9 @@ title: "12. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e12.png"
+image: "media/cantorfora/cantorforum_e12.png"
 description: "Leandro Gambôa: 1 Year Backpacking Australia"
 ---
 
@@ -31,4 +31,4 @@ Doch trotz allem blieben Erinnerungen und viele Fotos von vielen Facetten Austra
 
 Nikolas Weigt 2013
 
-{{< gallery dir="/images/cantorfora/cantorforum_12" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_12" />}}{{< load-photoswipe >}}

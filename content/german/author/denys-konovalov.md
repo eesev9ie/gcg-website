@@ -1,12 +1,12 @@
 ---
 title: "Denys Konovalov"
 # page title background image
-bg_image: /images/slide1.jpg
+bg_image: /media/slide1.jpg
 # meta description
 description : ""
 email: "denys.konovalov@pm.me"
 # portrait
-image: "images/people/dkonovalov.png"
+image: "media/people/dkonovalov.png"
 social:
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "https://twitter.com/LXDB_DE"

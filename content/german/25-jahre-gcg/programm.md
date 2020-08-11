@@ -2,9 +2,9 @@
 title: " 25-jähriges Festprogramm Freitag"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/image.png"
+image: "media/image.png"
 type: "pages"
 layout: "single.html"
 ---

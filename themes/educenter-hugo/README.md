@@ -1,7 +1,7 @@
 # Easy Setup (Hugo + Netlify + Forestry)
 Build your website with educenter hugo theme by following this easy steps (No Coding Required)
 
-<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-media.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
 
 In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everithing like this.
 
@@ -44,9 +44,9 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 
 | About  | Course  | Notice  | Scholarship  |
 |---|---|---|---|
-| ![About page](https://user-images.githubusercontent.com/58769763/72678220-25331480-3ace-11ea-98fd-a1be7d839a62.png) | ![Course page](https://user-images.githubusercontent.com/58769763/72678219-25331480-3ace-11ea-84a1-679144fe3997.png) | ![Notice page](https://user-images.githubusercontent.com/58769763/72678221-25cbab00-3ace-11ea-820d-83fe7ee5daa8.png) | ![Scholarship page](https://user-images.githubusercontent.com/58769763/72678218-249a7e00-3ace-11ea-94a8-d8ccf1f1a9ee.png)
+| ![About page](https://user-media.githubusercontent.com/58769763/72678220-25331480-3ace-11ea-98fd-a1be7d839a62.png) | ![Course page](https://user-media.githubusercontent.com/58769763/72678219-25331480-3ace-11ea-84a1-679144fe3997.png) | ![Notice page](https://user-media.githubusercontent.com/58769763/72678221-25cbab00-3ace-11ea-820d-83fe7ee5daa8.png) | ![Scholarship page](https://user-media.githubusercontent.com/58769763/72678218-249a7e00-3ace-11ea-94a8-d8ccf1f1a9ee.png)
 
-**The images are only for demonstration purpose, Please don't use those images.**
+**The media are only for demonstration purpose, Please don't use those media.**
 
 [Live Demo](http://demo.themefisher.com/educenter-hugo/).
 

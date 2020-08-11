@@ -3,11 +3,11 @@ title: "Dioramas de boîtes coupées élégantes"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # post thumbnail
-image: "images/blog/post-3.jpg"
+image: "media/blog/post-3.jpg"
 # post author
 author: "Mark Dinn"
 # taxonomy

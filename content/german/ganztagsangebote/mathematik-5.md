@@ -3,11 +3,11 @@ title: "Mathematik(Klasse 5)"
 
 draft: false
 # page title background image
-bg_image: "images/bild_titelbild.jpg"
+bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Förderung für in Mathematik begabte Schüler."
 # course thumbnail
-image: "images/ganztagsangebote/mathematik.jpg"
+image: "media/ganztagsangebote/mathematik.jpg"
 # taxonomy
 categories: ["Mathematik", "Naturwissenschaften"]
 # teacher

@@ -3,11 +3,11 @@ title: "Blender Game"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "desc"
 # course thumbnail
-image: "images/ganztagsangebote/blender.png"
+image: "media/ganztagsangebote/blender.png"
 # taxonomy
 categories: ["Digitalität und Technik"]
 # teacher

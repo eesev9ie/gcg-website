@@ -3,9 +3,9 @@ title: "11. Cantorforum"
 tenrange: "1"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e11.png"
+image: "media/cantorfora/cantorforum_e11.png"
 description: "Susann Brosig: In 10 Schritten zum Helden"
 ---
 
@@ -25,4 +25,4 @@ Experten sind die meisten leider immer noch nicht: Ich ging mit schlechtem Beisp
 
 Nikolas Weigt 2012
 
-{{< gallery dir="/images/cantorfora/cantorforum_11" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_11" />}}{{< load-photoswipe >}}

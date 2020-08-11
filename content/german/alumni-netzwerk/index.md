@@ -2,7 +2,7 @@
 title: "Die Arbeit des Alumninetzwerkes"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages-nocontent"
 ---
 
@@ -22,14 +22,11 @@ Je nach Thema und Gast/Gästen wird es sich um Einzelvorträge, Diskussionsrunde
 
 Bei wir handelt es sich momentan hauptsächlich um:
 
-<div class="list-items">
-
-<ul>
-<li><b>Lars Kasper & Stefan Schwarz (Jahrgang 2002)</b></li>
-<li><b>Frau K. Schmidt & Herr Dr. A. Koch</b></li>
-<li><b>3 aktuelle Schülervertreter</b></li>
-
-</div>
+{{% content %}}
+- **Lars Kasper & Stefan Schwarz (Jahrgang 2002)**
+- **Frau K. Schmidt & Herr Dr. A. Koch**
+- **3 aktuelle Schülervertreter**
+{{% /content %}}
 
 „Wir“ kann sich aber auch gerne erweitern, heißt also über Hilfe jeglicher Art freuen wir uns natürlich. Die Erörterung der Frage warum wir das eigentlich machen, ersparen wir uns. Kurz: Wir halten es für eine gute Idee ;-).
 

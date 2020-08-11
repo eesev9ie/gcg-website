@@ -3,9 +3,9 @@ title: "6. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e06.bmp"
+image: "media/cantorfora/cantorforum_e06.bmp"
 description: "''Der Einfluss sozialer Netzwerke auf Stellenbesetzungsentscheidungen von Unternehmen'' von Tino Rasch"
 ---
 
@@ -83,4 +83,4 @@ Personalmanagement können Bundeswirtschaftswissenschaftler im Bereich der „Le
 
 Max Appel, 2010
 
-![Cantorforum 6](/images/cantorfora/cantorforum_6/Cantorforum6_1.png)
+![Cantorforum 6](/media/cantorfora/cantorforum_6/Cantorforum6_1.png)

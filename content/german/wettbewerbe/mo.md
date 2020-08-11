@@ -3,11 +3,11 @@ title: "Mathematikolympiade"
 
 draft: false
 # page title background image
-bg_image: "images/bild_titelbild.jpg"
+bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Metabeschreibung"
 # course thumbnail
-image: "images/contests/mo.png"
+image: "media/contests/mo.png"
 # taxonomy
 category: "Mathematik"
 # course fee

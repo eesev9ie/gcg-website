@@ -2,7 +2,7 @@
 title: "Schülerrat"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 description: "Herzlich willkommen auf der Seite des Schülerrates vom Georg-Cantor-Gymnasium. Hier finden Sie alle wichtigen Informationen zu unserer Arbeit als Schülervertretung."
 ---

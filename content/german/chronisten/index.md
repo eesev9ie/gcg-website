@@ -2,7 +2,7 @@
 title: "Wir über uns"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
 type: "pages"
 layout: "single.html"
@@ -16,7 +16,7 @@ Die Chronik schreiben wir auch nicht mit Federkielen auf Latein oder im Mittelal
 Außerdem sind wir alles Andere als langweilig. Wir finden uns immer wöchentlich zusammen, um die aktuellen Ereignisse um unser Gymnasium in unserer eigenen Geheimsprache zu diskutieren, Artikel aus Zeitungen zu sammeln und zu archivieren und bei abgelaufener Chronisten-Schokolade sehr sehr viel zu lachen.
 
 {{< gallery >}}
-  {{< figure src="/images/schulchronik/2012b.jpg" >}}
+  {{< figure src="/media/schulchronik/2012b.jpg" >}}
 {{< /gallery >}}{{< load-photoswipe >}}
 
 Schon seit vielen Jahren hatten wir uns darauf beschränkt, die analoge Chronik so gut wie möglich zu gestalten und ein System zu finden. Doch irgendwann mussten wir uns doch mal auf die eigenen Beine stellen und die Website selbst gestalten. Mit Patricks Vorlage der Internetseite machten wir uns also in der Projektwoche 2011 an die Arbeit. Diesmal nicht römisch Kochen sonder chronistisch schuften und einen Plan entwickeln, nach dem wir die Chronik-Seite zusammenbauen wollten. Vielleicht war dies die wohl kreativste Zeit des gesamten Schuljahres, in der wir neue Begriffe prägten, wie Paulas „Kreative Haufen“. Am Ende einer natürlich viel zu kurzen Woche stand dann irgendsowas, wie ein Internetauftritt-Prototyp der GCG-Chronisten. Fertig war an allen Ecken und Enden noch nichts aber wir wussten, dass wir jetzt ein Gerüst haben, auf dem wir arbeiten können. Oder von dem wir runterfallen können...
@@ -25,14 +25,14 @@ Danach arbeiteten wir mit vereinten Kräften und mit unseren drei Neuzugängen a
 
 In der Projektwoche 2012 hieß dann aber wieder: „Rangeklozt und nicht gezittert!“. Wenn´s vorher noch nicht losging, dann aber jetzt. Mit mehreren, für diese wichtige Woche dazugekommenen, Neu-Chronisten wurde richtig Gas gegeben. Bereits zuvor hatten wir Florian Hennig als Herr der Videos in unsere Reihen aufgenommen und am Ende dieser Woche konnten wir noch Lenz-Hank Weise als ein weiteres Mitglied in der Chronisten-Riege willkommen heißen. Nachdem wir ja den Plan aus dem vorigen Jahr hatten, wurden nun Jahresartikel geschrieben, verbessert, weggeschmissen und neugeschrieben. Es wurden Bilder im Schweiße des Angesichts mit dem Laptop „gegimpt“, geschnipselt, geklebt, getönt und retuschiert. Max kam als unser Internet-Gott mit aller Hilfe manchmal kaum hinterher und irgendwie verschwanden dann am Ende noch Artikel aus der Website. Die Seite wurde von Max´ Homepage auf die der Schule übertragen und am Ende warteten wir nicht mehr, wie im Jahr davor, auf den Abschluss der Formatierung des Göttlichen Sticks sondern sagten uns: „Noch nicht fertig, aber schon richtig gut“.
 
-![Chronisten](/images/schulchronik/chronistenfoto.png)
+![Chronisten](/media/schulchronik/chronistenfoto.png)
 
 Der Sommer 2013 jedoch war ein Sommer des Abschiedes. Nicht nur mussten sich viele Teile der Stadt von ihrem liebgewonnenen schlammigen Saalewasser trennen, auch wir mussten einen großen Teil der Chronisten aus ihren Diensten verabschieden - Mit dem Unterschied, dass wir uns nicht gefreut haben. Max, Dorothee, Robin, Maria und Florian blieben uns nur noch für eine wertvolle Projektwoche erhalten und verließen darauf die Torstraße 13 mit ihren Abi-Zeugnissen in der Hand. Doch es gab in dieser Woche der weiteren Website-Vervollständigung und Absolvententreffen-Vorbereitung auch eine Erweiterung der Chronistentruppe. Nachdem sie erfolgreich Absolventen durch das Schulhaus geführt, Stifte verkauft und das Absolvententreffen mitgestaltet hatten, nahmen wir Janosch Hilpert, Karl Haase, Alexandra Schrader, Lennart Schilg und Robert Schumann als Nachwuchschronisten in unserem Gefolge auf. Fortan bildeten wir unsere Big New Five in all unsere Künsten des Chronistentums aus. Sei es gimpen, seien es Erfolge eintragen oder einfach nur Updates überwachen.
 
 2014 stand nun unter dem Stern der Know-How-Weitergabe. Nachdem wir in der Projektwoche Florian Strechel für unsere Reihen gewinnen konnten, musste die Aus- und Fortbildung unserer chronistischen Fachkräfte forciert werden. Eine neue Zeit brach langsam an, in der die Bewältigung Herkulesaufgaben, wie die Komplettierung Wettbewerbserfolge, zum ersten Mal möglich erschien. Was die Jungs in Brasilien gegen ein paar Balltreter schaffen können, bekommen wir ja schließlich dreimal mit unseren Problemen hin: Schlagen! Doch mit der Verabschiedung Herrn Dr. Müllers warf auch das Ende der Laufbahn von Philine und Nikolas seine Schatten voraus.
 
 {{< gallery >}}
-  {{< figure src="/images/schulchronik/2014.jpg" >}}
+  {{< figure src="/media/schulchronik/2014.jpg" >}}
 {{< /gallery >}}{{< load-photoswipe >}}
 
 Das Jahr 2015 sollte als ein Jahr umwälzender Veränderungen in die Historie der GCG-Chronisten eingehen. Neue Namensgebungsdebatten wurden geführt, der Kult des Tingeltangel-Bob erstand aus einem Überraschungsei und als neuer Initiationsritus wurde der Schwur auf den Statistik-Ordner eingeführt. Ein zweites Mal musste die Super-Admin-Würde – oder Bürde? - weitergegeben werden und die Suche nach einem neuen Haupt-Autor für Chronik-Berichte begann. Die Zukunft war mit sieben Mitgliedern gesichert. Seit September 2015 verstärken die 5 neuen Jungchronisten: Lavinia Burkhardt, Anna Imming, Lennart Schimpf, Tom Steinkopf und Hannes Wisotzki unsere Chronik Ag und tauchen in die geheimnisvolle Geschichte des GCG ein.
@@ -40,7 +40,7 @@ Das Jahr 2015 sollte als ein Jahr umwälzender Veränderungen in die Historie de
 Und es geht stets weiter – Sowahr uns Tingeltangel-Bob helfe!
 
 {{< gallery >}}
-  {{< figure src="/images/schulchronik/2016.jpg" >}}
+  {{< figure src="/media/schulchronik/2016.jpg" >}}
 {{< /gallery >}}{{< load-photoswipe >}}
 
 Nikolas Weigt 2015

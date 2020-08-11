@@ -8,10 +8,10 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 {{ $baseURL := .Site.BaseURL }}
 <div class="gallery caption-position-{{ with .Get "caption-position" | default "bottom" }}{{.}}{{end}} caption-effect-{{ with .Get "caption-effect" | default "slide" }}{{.}}{{end}} hover-effect-{{ with .Get "hover-effect" | default "zoom" }}{{.}}{{end}} {{ if ne (.Get "hover-transition") "none" }}hover-transition{{end}}" itemscope itemtype="http://schema.org/ImageGallery">
 	{{- with (.Get "dir") -}}
-		<!-- If a directory was specified, generate figures for all of the images in the directory -->
+		<!-- If a directory was specified, generate figures for all of the media in the directory -->
 		{{- $files := readDir (print "/static/" .) }}
 		{{- range $files -}}
-			<!-- skip files that aren't images, or that inlcude the thumb suffix in their name -->
+			<!-- skip files that aren't media, or that inlcude the thumb suffix in their name -->
 			{{- $thumbext := $.Get "thumb" | default "-thumb" }}
 			{{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
 			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->

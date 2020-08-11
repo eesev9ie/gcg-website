@@ -2,9 +2,9 @@
 title: "Über die Schule"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # about image
-image: "images/schule.png"
+image: "media/schule.png"
 # meta description
 description : "Das Georg-Cantor-Gymnasium - ein mathematisch-naturwissenschaftlich-technisches Gymnasium in Halle(Saale)"
 ---

@@ -3,9 +3,9 @@ title: "4. Cantorforum"
 tenrange: "0"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
-image: "images/cantorfora/cantorforum_e04.bmp"
+image: "media/cantorfora/cantorforum_e04.bmp"
 description: "''Bundestagswahl…mir egal!?''"
 ---
 
@@ -26,4 +26,4 @@ Das nächste Cantorforum findet dann im November zum Thema Wiedervereinigung sta
 
 Lucas Tittmann, 2009
 
-{{< gallery dir="/images/cantorfora/cantorforum_4" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_4" />}}{{< load-photoswipe >}}

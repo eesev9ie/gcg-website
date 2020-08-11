@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-2.png"
+  bg_image : "media/banner/banner-2.png"
   slider_item:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
@@ -83,24 +83,24 @@ slider:
 ############################# success #############################
 success_banner:
   enable : true
-  image : "images/success/success_banner.png"
+  image : "media/success/success_banner.png"
   feature_item:
     # feature item loop
     - name : "Mathematikolympiade"
       img: true
-      icon : "/images/success/mo.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/mo.png" # icon pack : https://themify.me/themify-icons
       content : "In der Landesmathematikolympiade 2020 wurden:  \n * **3 von 9 ersten Preisen**  \n * **6 von 21 zweiten Preisen**  \n * **13 von 30 dritten Preisen**  \n * **11 von 39 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
 
     # feature item loop
     - name : "Physikolympiade"
       img: true
-      icon : "/images/success/po.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/po.png" # icon pack : https://themify.me/themify-icons
       content : "In der Landesphysikolympiade 2020 wurden:  \n * **3 von 5 ersten Preisen**  \n * **2 von 8 zweiten Preisen**  \n * **4 von 13 dritten Preisen**  \n * **1 von 18 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
 
     # feature item loop
     - name : "Chemieolympiade"
       img: true
-      icon : "/images/success/cds.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/cds.png" # icon pack : https://themify.me/themify-icons
       content : "Ein Schüler unserer Schule vertritt als einer von 4. Schülern der Nationalmannschaft Deutschland in der Internationalen Chemieolympiade 2020."
 
     # feature item loop
@@ -112,7 +112,7 @@ success_banner:
 about:
   enable : true
   title : "Website im Aufbau"
-  image : "images/about/about-us.jpg"
+  image : "media/about/about-us.jpg"
   content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale).  \n* Alle Bereiche, die mit (UMSTRITTEN) gekennzeichnet sind, müssen noch diskutiert werden und deren Existenz ist noch nicht versichert.  \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: ![.github/workflows/workflow.yml](https://github.com/eesev9ie/gcg-website/workflows/.github/workflows/workflow.yml/badge.svg)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten"
   button:
     enable : true
@@ -140,7 +140,7 @@ cta:
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "images/backgrounds/success-story.jpg"
+  bg_image : "media/backgrounds/success-story.jpg"
   title : "Über die Schule"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
   # video link
