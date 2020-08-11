@@ -1,6 +1,5 @@
 ---
-title: "Odyssee des GCG:
-von der „Schimmelschule“ zum „Schmuckstück“"
+title: "Odyssee des GCG - von der „Schimmelschule“ zum „Schmuckstück“"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.png"

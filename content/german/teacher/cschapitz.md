@@ -8,7 +8,7 @@ description : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
 # teacher portrait
 image: "images/teachers/cschapitz.png"
 # course
-course: "Fremdsprachen"
+courses: ["Fremdsprachen"]
 # biography
 bio: "Frau Schapitz ist eine Lehrerin für die Fremdsprachen Englisch und Französisch und die stellvertretende Schulleiterin an unserer Schule."
 # interest
@@ -16,9 +16,9 @@ interest: ["Englisch","Französisch"]
 # contact info
 contact:
   # contact item loop
-  #- name : "schapitz@cantor-gymnasium.de"
-  #  icon : "ti-email" # icon pack : https://themify.me/themify-icons
-  #  link : "mailto:schapitz@cantor-gymnasium.de"
+  - name : "schapitz@cantor-gymnasium.de"
+    icon : "ti-email" # icon pack : https://themify.me/themify-icons
+    link : "mailto:schapitz@cantor-gymnasium.de"
 
 # clubs ?
 clubs: false

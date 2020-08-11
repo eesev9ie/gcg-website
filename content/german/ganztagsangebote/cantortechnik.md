@@ -9,13 +9,13 @@ description : "desc"
 # course thumbnail
 image: "images/ganztagsangebote/cantortechnik.png"
 # category
-category: "Digitalität und Technik"
+categories: ["Digitalität und Technik"]
 # teacher
 teacher: "Yves Bauer"
 # duration
-duration: "Donnerstag, 6.- 7. Stunde"
+weekly: "Donnerstag, 6.- 7. Stunde"
 # weekly
-weekly: "2 Stunden"
+duration: "2 Stunden"
 # course fee
 class: "alle Klassenstufen"
 # apply url

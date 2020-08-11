@@ -9,13 +9,13 @@ description : "Begabtenförderung in Biologie, Chemie und Physik"
 # course thumbnail
 image: "images/image.png"
 # taxonomy
-category: "Naturwissenschaften"
+categories: ["Naturwissenschaften"]
 # teacher
 teacher: "Herr Dr. Weddeler"
 # duration
-duration: "nach Vereinbarung"
-# weekly
 weekly: "nach Vereinbarung"
+# weekly
+duration: "nach Vereinbarung"
 # course fee
 class: "ab Klasse 7 (Kleingruppen)"
 # apply url

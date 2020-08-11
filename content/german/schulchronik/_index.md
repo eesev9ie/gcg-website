@@ -22,7 +22,7 @@ bg_image: "images/backgrounds/page-title.png"
 {{< element-item link="/de/alumni-netzwerk" title="Alumninetzwerk" >}}
 {{< element-item link="/de/about/chronologie" title="Chronologie" >}}
 {{< element-item link="/de/about/traditionen" title="Traditionen" >}}
-{{< element-item link="/de/über-chronisten" title="Chronistenteam" >}}
+{{< element-item link="/de/chronisten" title="Chronistenteam" >}}
 
 ---
 

@@ -4,25 +4,34 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <!-- teacher category list -->
-        <ul class="list-inline text-center filter-controls mb-5">
-          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
-          {{ $categories := slice }}
-          {{ range .Data.Pages }}
-          {{ $categories = $categories | append .Params.Course }}
-          {{ end }}
-          {{ range ( $categories | uniq ) }}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
+			<div class="col-lg-12">
+				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
+					data-toggle="buttons">
+					<label class="btn btn-primary-outline active">
+						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
+					</label>
+					{{ $categories := slice }}
+					{{ range .Data.Pages }}
+					{{ range .Params.Courses }}
+					{{ $categories = $categories | append . }}
+					{{ end }}
+					{{ end }}
+					{{ range ( $categories | uniq ) }}
+					<label class="btn btn-primary-outline">
+						<input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . }}
+					</label>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+
+    <br>
     <!-- teacher list -->
-    <div class="row filtr-container">
+    <div class="row shuffle-wrapper">
       <!-- teacher -->
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+      <div class="col-lg-4 col-sm-6 shuffle-item"
+				data-groups="[{{range $index, $element:= .Params.Courses }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
         {{ .Render "teacher" }}
       </div>
       {{ end }}

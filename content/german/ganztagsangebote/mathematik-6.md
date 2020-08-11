@@ -1,5 +1,5 @@
 ---
-title: "Mathematik(Klasse 5)"
+title: "Mathematik(Klasse 6)"
 
 draft: false
 # page title background image
@@ -13,13 +13,13 @@ categories: ["Mathematik", "Naturwissenschaften"]
 # teacher
 teacher: "Herr Dr. Müller"
 # duration
-weekly: "Donnerstag, 7. - 8. Stunde"
+weekly: "Dienstag, 7. - 8. Stunde"
 # weekly
 duration: "2. Stunden"
 # course fee
-class: "5 Klasse"
+class: "6 Klasse"
 # room
-room: ""
+room: "307"
 # apply url
 apply_url : "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"
 # type

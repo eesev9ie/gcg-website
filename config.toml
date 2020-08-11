@@ -44,6 +44,8 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
 link = "plugins/venobox/venobox.min.js"
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
@@ -132,6 +134,24 @@ hasChildren = true
   name = "Formulare und Vorlagen"
   URL = "forms"
   weight = 1
+
+  [[menu.main]]
+  parent = "Für Schüler und Eltern"
+  name = "Förderverein"
+  URL = "https://www.cantor-foerderverein.de"
+  weight = 2
+
+  [[menu.main]]
+  parent = "Für Schüler und Eltern"
+  name = "Schulshop"
+  URL = "https://schulkleidung.de/shop/index.php?nr=SDQUCKVD"
+  weight = 4
+
+  [[menu.main]]
+  parent = "Für Schüler und Eltern"
+  name = "Schülerrat"
+  URL = "schuelerrat"
+  weight = 3
 
 [[menu.main]]
 name = "Aktuelles"

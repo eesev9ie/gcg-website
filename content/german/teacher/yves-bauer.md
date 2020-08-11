@@ -8,7 +8,7 @@ description : "Herr Bauer ist der Leiter der Arbeitsgemeinschaften CantorTechnik
 # teacher portrait
 image: "images/teachers/image.png"
 # course
-course: "Ganztagsangebote/Digitalität und Technik"
+courses: ["Ganztagsangebote"]
 # biography
 bio: ""
 # interest

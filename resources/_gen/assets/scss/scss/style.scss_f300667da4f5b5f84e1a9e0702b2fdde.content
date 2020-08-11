@@ -154,6 +154,9 @@ h6, .h6 {
     background: #ffbc3b;
     color: #fff; }
 
+.input {
+  border: 100px; }
+
 body {
   background-color: #fff;
   overflow-x: hidden; }

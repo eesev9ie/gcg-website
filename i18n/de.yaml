@@ -61,6 +61,9 @@
 - id: teacher
   translation: Leiter
 
+- id: room
+  translation: Raum
+
 - id: location
   translation: Ort
 
@@ -108,9 +111,6 @@
 
 - id: our_teachers
   translation: Unsere Lehrer
-
-- id: download
-  translation: Télécharger
 
 - id: datenschutzerklärung
   translation: Datenschutzerklärung
