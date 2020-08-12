@@ -165,23 +165,6 @@ body {
   background: #ffcd6e;
   color: #fff; }
 
-.list-items ul {
-  padding-left: 0; }
-  .list-items ul li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    list-style-type: none; }
-    .list-items ul li::before {
-      position: absolute;
-      content: "\e65d";
-      font-family: "themify";
-      font-size: 14px;
-      left: 0;
-      top: 1px;
-      color: #ffbc3b;
-      transition: .3s ease; }
-
 /* preloader */
 .preloader {
   position: fixed;
@@ -427,18 +410,16 @@ textarea.form-control {
   padding-left: 0; }
   .content ul li {
     position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    list-style-type: none; }
+    margin-bottom: 10px; }
     .content ul li::before {
       position: absolute;
-      content: "\e65d";
-      font-family: "themify";
-      font-size: 14px;
-      left: 0;
-      top: 1px;
-      color: #ffbc3b;
-      transition: .3s ease; }
+      content: "";
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background: #ffbc3b;
+      left: -25px;
+      top: 5px; }
 
 .content table {
   text-align: left;
