@@ -10,6 +10,7 @@ site_url: https://eesev9ie.github.io
 display_url: https://eesev9ie.github.io
 logo_url: https://eesev9ie.github.io/media/logo_y.svg
 locale: "de"
+publish_mode: editorial_workflow
 
 collections:
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog

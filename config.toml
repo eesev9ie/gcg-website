@@ -153,6 +153,12 @@ hasChildren = true
   URL = "schuelerrat"
   weight = 3
 
+  [[menu.main]]
+  parent = "Für Schüler und Eltern"
+  name = "Hinweise"
+  URL = "notice"
+  weight = 5
+
 [[menu.main]]
 name = "Aktuelles"
 URL = "blog"

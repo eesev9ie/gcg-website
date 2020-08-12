@@ -27,7 +27,7 @@
   <div class="footer bg-footer section border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
           <a class="logo-footer" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
           <ul class="list-unstyled">
@@ -62,7 +62,7 @@
           </ul>
         </div>
         <!-- support -->
-        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+        <div class="col-lg-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "clubs_footer" }}</h4>
           <ul class="list-unstyled">
             {{ range first 5 (where .Site.RegularPages "Type" "ganztagsangebote")}}
