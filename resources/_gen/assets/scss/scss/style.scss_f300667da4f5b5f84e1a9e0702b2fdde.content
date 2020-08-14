@@ -456,7 +456,7 @@ textarea.form-control {
   object-fit: cover; }
 
 .top-header {
-  font-size: 13px;
+  font-size: 12px;
   transition: transform .2s ease;
   transform-origin: top;
   font-weight: 600; }
@@ -519,7 +519,7 @@ link:focus,
   color: #fff; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 35px 0px; }
+  padding: 40px 0px; }
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 20px; } }
@@ -540,7 +540,7 @@ link:focus,
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
   border-bottom: 5px solid #ffbc3b;
   padding: 15px;
-  top: 85px;
+  top: 96px;
   border-radius: 0;
   display: block;
   visibility: hidden;
@@ -630,7 +630,6 @@ link:focus,
   display: inline-block; }
 
 .feature-blocks {
-  margin-top: -100px;
   padding-left: 70px;
   padding-top: 80px;
   padding-right: 30%; }

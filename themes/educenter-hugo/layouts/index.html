@@ -33,12 +33,12 @@
 <!-- banner-feature -->
 {{ if $data.homepage.success_banner.enable }}
 {{ with $data.homepage.success_banner }}
-<section class="bg-white overflow-md-hidden" id="success">
+<section class="section bg-cover" data-background="{{ .image | absURL }}" id="success">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
-      <div class="col-xl-4 col-lg-5 align-self-end">
+      <!--div class="col-xl-4 col-lg-5 align-self-end">
         <img class="img-fluid w-100" style="margin-top: -20px;" src="{{ .image | absURL }}" alt="banner-feature">
-      </div>
+      </div-->
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-white justify-content-between">
           {{ range .feature_item }}
