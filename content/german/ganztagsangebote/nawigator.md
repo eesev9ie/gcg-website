@@ -7,7 +7,7 @@ bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Begabtenförderung in Biologie, Chemie und Physik"
 # course thumbnail
-image: "media/image.png"
+image: "media/ganztagsangebote/nawigator.jpg"
 # taxonomy
 categories: ["Naturwissenschaften"]
 # teacher

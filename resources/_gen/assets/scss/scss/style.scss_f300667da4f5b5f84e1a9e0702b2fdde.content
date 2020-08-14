@@ -410,16 +410,18 @@ textarea.form-control {
   padding-left: 0; }
   .content ul li {
     position: relative;
-    margin-bottom: 10px; }
+    padding-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: none; }
     .content ul li::before {
       position: absolute;
-      content: "";
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      background: #ffbc3b;
-      left: -25px;
-      top: 5px; }
+      content: "\e65d";
+      font-family: "themify";
+      font-size: 14px;
+      left: 0;
+      top: 1px;
+      color: #ffbc3b;
+      transition: .3s ease; }
 
 .content table {
   text-align: left;
@@ -454,7 +456,7 @@ textarea.form-control {
   object-fit: cover; }
 
 .top-header {
-  font-size: 12px;
+  font-size: 13px;
   transition: transform .2s ease;
   transform-origin: top;
   font-weight: 600; }
@@ -623,8 +625,8 @@ link:focus,
 
 /* banner feature */
 .feature-icon {
-  font-size: 50px;
-  color: #ffbc3b;
+  font-size: 60px;
+  color: #1a1a37;
   display: inline-block; }
 
 .feature-blocks {
@@ -682,7 +684,7 @@ link:focus,
   border-radius: 50%;
   background: #ffbc3b;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center; }
   .play-btn i {
     line-height: 80px; }
@@ -744,16 +746,6 @@ link:focus,
 
 /* /teacher */
 /* footer */
-.newsletter {
-  background-image: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
-  margin-bottom: -170px;
-  position: relative;
-  z-index: 1; }
-  .newsletter-block {
-    padding-left: 50px; }
-    @media (max-width: 575px) {
-      .newsletter-block {
-        padding-left: 15px; } }
 .input-wrapper {
   position: relative; }
   .input-wrapper button {

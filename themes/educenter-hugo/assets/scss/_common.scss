@@ -339,17 +339,19 @@ textarea.form-control{
 
     li {
       position: relative;
+      padding-left: 20px;
       margin-bottom: 10px;
+      list-style-type: none;
 
       &::before {
         position: absolute;
-        content: "";
-        height: 10px;
-        width: 10px;
-        border-radius: 50%;
-        background: #ffbc3b;
-        left: -25px;
-        top: 5px;
+        content: "\e65d";
+        font-family: "themify";
+        font-size: 14px;
+        left: 0;
+        top: 1px;
+        color: #ffbc3b;
+        transition: .3s ease;
       }
     }
   }

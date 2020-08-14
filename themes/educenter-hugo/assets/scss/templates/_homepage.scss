@@ -1,7 +1,7 @@
 /* banner feature */
 .feature-icon {
-  font-size: 50px;
-  color: $primary-color;
+  font-size: 60px;
+  color: $secondary-color;
   display: inline-block;
 }
 
@@ -81,7 +81,7 @@
   border-radius: 50%;
   background: $primary-color;
   color: $white;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 
   i {
@@ -163,21 +163,6 @@
 /* /teacher */
 
 /* footer */
-.newsletter {
-  background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
-  margin-bottom: -170px;
-  position: relative;
-  z-index: 1;
-
-  &-block {
-    padding-left: 50px;
-
-    @include mobile {
-      padding-left: 15px;
-    }
-  }
-}
-
 .input-wrapper {
   position: relative;
 

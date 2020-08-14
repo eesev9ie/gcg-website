@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "media/banner/banner-2.png"
+  bg_image : "media/banner/banner.png"
   slider_item:
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
@@ -16,7 +16,7 @@ slider:
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Schule mit dem Gütesiegel: Begabungsfördernde Schule"
+      content : "Schule mit dem Gütesiegel ''Begabungsfördernde Schule''"
       animation_in : "right"
       animation_out : "down"
       # available animation : left, right, up, down
@@ -27,7 +27,7 @@ slider:
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Ein Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
+      content : "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
       animation_in : "up"
       animation_out : "left"
       # available animation : left, right, up, down
@@ -38,7 +38,7 @@ slider:
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Kooperationsschule der Hochschule Merseburg"
+      content : "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -60,25 +60,35 @@ slider:
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Mitglied im Netzwerk Mathematisch-naturwissenschaftlicher Excellence-Center an Schulen (MINT-EC)"
+      content : "Mitglied im Netzwerk MINT-EC"
       animation_in : "up"
       animation_out : "left"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
-        link : ""
+        link : "https://mint-ec.de"
+
+    - title : "Das Georg-Cantor-Gymnasium"
+      content : "Projektschule LemaS"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : "https://mint-ec.de"
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Jugend Forscht Schule 2018"
-      animation_in : "up"
-      animation_out : "left"
+      content : "KMK ''Jugend forscht''-Schule 2018"
+      animation_in : "right"
+      animation_out : "down"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
-        link : ""
+        link : "https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html"
 
 ############################# success #############################
 success_banner:
@@ -113,7 +123,7 @@ about:
   enable : true
   title : "Website im Aufbau"
   image : "media/about/about-us.jpg"
-  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale).  \n* Alle Bereiche, die mit (UMSTRITTEN) gekennzeichnet sind, müssen noch diskutiert werden und deren Existenz ist noch nicht versichert.  \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: ![.github/workflows/workflow.yml](https://github.com/eesev9ie/gcg-website/workflows/.github/workflows/workflow.yml/badge.svg)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten"
+  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: ![.github/workflows/workflow.yml](https://github.com/eesev9ie/gcg-website/workflows/.github/workflows/workflow.yml/badge.svg)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten."
   button:
     enable : true
     label : "Über die Schule"
@@ -142,7 +152,7 @@ success_story:
   enable : true
   bg_image : "media/backgrounds/success-story.jpg"
   title : "Über die Schule"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen ''Georg-Cantor'', umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u.v.m ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt, und dem Gütesiegel begabungsfördernde Schule vom Landesinstitut für Schulqualität und Lehrbildung."
   # video link
   video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
 
