@@ -1,15 +1,11 @@
 ---
-title: "Alarmordnung"
-date: 2020-08-11T15:27:17+06:00
+title: Hausordnung
+date: 2020-08-25T21:26:00.897Z
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : ""
-# Research image
-image: "media/image.png"
-# type
-type: "forms"
+bg_image: media/backgrounds/page-title.png
+description: ""
+image: media/image.png
+type: forms
 ---
 
 {{% content %}}
