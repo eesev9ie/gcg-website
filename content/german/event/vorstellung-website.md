@@ -1,6 +1,6 @@
 ---
 title: Beginn Schuljahr 2020/2021
-publishDate: 2019-01-01T00:00:00Z
+publishDate: 2020-08-26T19:56:20.530Z
 date: 2020-08-27T07:30:00+01:00
 draft: false
 bg_image: media/backgrounds/page-title.png
