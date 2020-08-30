@@ -233,6 +233,35 @@ collections:
       - {label: "Website", name: "web_url", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
       - {label: "Text", name: "body", widget: "markdown"}
+  - name: "schulchronik"
+    label: "Deutsch/Schulchronik"
+    folder: "content/german/schulchronik"
+    filter: {field: "type", value: "schulchronik"}
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
+      - {label: "Text", name: "body", widget: "markdown"}
+  - name: "abiturienten"
+    label: "Deutsch/Abiturienten"
+    folder: "content/german/abiturienten"
+    filter: {field: "type", value: "abiturienten"}
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Mehrere Bilder", name: "few", widget: "boolean", default: "false", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
+      - {label: "Text", name: "body", widget: "markdown"}
   - name: "pages-de"
     label: "Deutsch/Seiten"
     editor:

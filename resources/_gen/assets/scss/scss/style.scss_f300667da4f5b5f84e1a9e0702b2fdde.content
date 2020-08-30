@@ -630,6 +630,8 @@ link:focus,
   display: inline-block; }
 
 .feature-blocks {
+  margin-left: 40px;
+  margin-right: 40px;
   padding-left: 70px;
   padding-top: 80px;
   padding-right: 30%; }
@@ -649,6 +651,10 @@ link:focus,
       padding: 50px; }
       .feature-blocks h3 {
         font-size: 25px; } }
+  @media (max-width: 575px) {
+    .feature-blocks {
+      margin-left: 0px;
+      margin-right: 0px; } }
 /* /banner feature */
 /* course */
 .card-btn {

@@ -30,37 +30,6 @@
 {{ end }}
 <!-- /hero slider -->
 
-<!-- banner-feature -->
-{{ if $data.homepage.success_banner.enable }}
-{{ with $data.homepage.success_banner }}
-<section class="section bg-cover" data-background="{{ .image | absURL }}" id="success">
-  <div class="container-fluid p-0">
-    <div class="row no-gutters">
-      <!--div class="col-xl-4 col-lg-5 align-self-end">
-        <img class="img-fluid w-100" style="margin-top: -20px;" src="{{ .image | absURL }}" alt="banner-feature">
-      </div-->
-      <div class="col-xl-8 col-lg-7">
-        <div class="row feature-blocks bg-white justify-content-between">
-          {{ range .feature_item }}
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            {{ if .img }}
-              <img src="{{ .icon }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
-            {{ else }}
-              <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            {{ end }}
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
-            <p>{{ .content | markdownify }}</p>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /banner-feature -->
-
 <!-- about us -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
@@ -69,10 +38,12 @@
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <div class="content">
+          {{ .content | markdownify }}
+        </div>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -87,6 +58,39 @@
 {{ end }}
 {{ end }}
 <!-- /about us -->
+
+<!-- banner-feature -->
+{{ if $data.homepage.success_banner.enable }}
+{{ with $data.homepage.success_banner }}
+<section class="section bg-cover" data-background="{{ .image | absURL }}" id="success">
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <!--div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" style="margin-top: -20px;" src="{{ .image | absURL }}" alt="banner-feature">
+      </div-->
+      <div class="col-xl-8 col-lg-7">
+        <div class="row feature-blocks bg-white justify-content-between">
+          {{ range .feature_item }}
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-sm-left">
+            {{ if .img }}
+              <img src="{{ .icon }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
+            {{ else }}
+              <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            {{ end }}
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
+            <div class="content">
+              {{ .content | markdownify }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /banner-feature -->
 
 <!-- courses -->
 {{ if $data.homepage.ganztagsangebote.enable }}

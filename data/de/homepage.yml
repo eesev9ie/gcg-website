@@ -77,7 +77,7 @@ slider:
       button:
         enable : true
         label : "Mehr erfahren"
-        link : "https://mint-ec.de"
+        link : "https://www.leistung-macht-schule.de/"
 
     # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
@@ -123,7 +123,11 @@ about:
   enable : true
   title : "Website im Aufbau"
   image : "media/about/about-us.jpg"
-  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n* Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n* **Informationen auf dieser Testwebsite können mit der Realität nicht übereinstimmen.**  \n* Der Quellcode der Website ist [hier](https://github.com/lxdb/gcg-website) abrufbar.  \n* Hier ist der Deployment-Status der Website sichtbar: ![.github/workflows/workflow.yml](https://github.com/eesev9ie/gcg-website/workflows/.github/workflows/workflow.yml/badge.svg)  \n* Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten."
+  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n
+  * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
+  * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n
+  * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
+  * Weitere Informationen gibt es im [passenden Blogbeitrag](/de/blog/new-site/)"
   button:
     enable : true
     label : "Über die Schule"
