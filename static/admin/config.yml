@@ -156,13 +156,12 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Jahr", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - {label: "Beschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Jahr", name: "year", widget: "string"}
-      - {label: "Beschreibung", name: "bio", widget: "text"}
+      - {label: "Name", name: "name", widget: "string"}
       - label: "Kontaktdaten/Soz. Netzwerke"
         name: "contact"
         widget: "list"

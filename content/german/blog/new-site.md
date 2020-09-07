@@ -15,7 +15,7 @@ tags:
 type: post
 ---
 {{% content %}}
-### Neuanfang
+## Neuanfang
 
 Seit Anfang Juli arbeite [ich](/de/author/denys-konovalov) an einer neuen Website für das Georg-Cantor-Gymnasium in Halle und stelle ihnen damit die erste Vorversion vor.
 
