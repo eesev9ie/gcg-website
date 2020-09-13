@@ -196,10 +196,9 @@ URL = "forms"
 [params]
 logo = "media/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+author = "Denys Konovalov|CantorTechnik AG|LXDB Team"
 # contact info
-address = "Georg-Canot-Gymnasium Halle, Torstraße 13, 06110 Halle(Saale)"
+address = "Georg-Cantor-Gymnasium, Torstraße 13, 06110 Halle(Saale)"
 route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
 mobile = "+49345 6903156"
 email = "schulleitung@cantor-gymnasium.de"
@@ -213,7 +212,7 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "media/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "media/logo.png" # use jpg, png, svg or gif format.
 
 # Subscription
 ##[params.subscription]
@@ -264,6 +263,6 @@ contentDir = "content/german"
 weight = 2
 home = "Startseite"
 # copyright
-copyright = "Copyright &copy; 2020 Georg-Cantor-Gymnasium Halle"
+copyright = "Copyright &copy; 2020 Georg-Cantor-Gymnasium Halle(Saale)"
 
 impressumURL = "impressum"
