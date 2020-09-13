@@ -9,7 +9,7 @@ description : "desc"
 # course thumbnail
 image: "media/ganztagsangebote/cantortechnik.png"
 # category
-categories: ["Digitalität und Technik"]
+categories_ag: ["Digitalität und Technik"]
 # teacher
 teacher: "Yves Bauer"
 # duration
@@ -43,7 +43,7 @@ Doch um dies alles zu machen brauchen wir Computer. Da wir aber nicht an einen C
 
 Um anderen einen Einblick in unser AG-Leben zu verschaffen, haben wir die letzte Themengruppe erstellt - CantorMedia.
 
-In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.   
+In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.
 
 ### Bereiche der AG
 

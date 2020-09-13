@@ -30,7 +30,7 @@ p, .paragraph {
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e4b;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Heavy";
   font-weight: 700;
   line-height: 1.2; }
 
@@ -287,7 +287,7 @@ a h4:hover {
   color: #1e1e4b !important; }
 
 .font-secondary {
-  font-family: "Fira Sans"; }
+  font-family: "Fira Sans Heavy"; }
 
 .mb-10 {
   margin-bottom: 10px !important; }
@@ -454,6 +454,19 @@ textarea.form-control {
   height: 85px;
   width: 85px;
   object-fit: cover; }
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  font-size: 20px; }
+
+details[open] {
+  padding: .5em; }
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em; }
 
 .top-header {
   font-size: 12px;
@@ -732,7 +745,7 @@ link:focus,
 .card-date {
   position: absolute;
   background: #ffbc3b;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans Heavy";
   text-align: center;
   padding: 10px;
   color: #fff;

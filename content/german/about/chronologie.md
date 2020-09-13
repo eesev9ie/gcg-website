@@ -165,7 +165,8 @@ Teilnahme von 8 SchülerInnen des GCG am Frühstudium der MLU Halle
 ---
 
 ## 2009
-\1. Cantorforum: Auf den Spuren von Georg Cantor
+
+Das 1. Cantorforum: Auf den Spuren von Georg Cantor
 
 chinesische Regierungsdelegation am GCG
 
@@ -179,7 +180,7 @@ Projekt zur Entstehung einer Gedenktafel für Johann Friedrich Struensee
 ## 2011
 Verleihung des Titels "Schule ohne Rassismus, Schule mit Courage" an das GCG
 
-\1. Spendenlauf am 30.09.2011 erbringt 6758,00 € für die Kinderkrebsstation „Kinderplanet“ und das Team „Ärzte ohne Grenzen“
+1. Spendenlauf am 30.09.2011 erbringt 6758,00 € für die Kinderkrebsstation „Kinderplanet“ und das Team „Ärzte ohne Grenzen“
 
 ---
 
@@ -196,7 +197,8 @@ Das GCG wird 25
 ---
 
 ## 2014
-\1. Junior-Ingenieur-Akademie
+
+Die 1. Junior-Ingenieur-Akademie
 
 Schulleiterwechsel: Verabschiedung von Herrn OStD Dr. Müller und Begrüßung von Herrn OStD Dr. Gorsler
 

@@ -9,7 +9,7 @@ description : "Begabtenförderung in Biologie, Chemie und Physik"
 # course thumbnail
 image: "media/ganztagsangebote/nawigator.jpg"
 # taxonomy
-categories: ["Naturwissenschaften"]
+categories_ag: ["Naturwissenschaften"]
 # teacher
 teacher: "Herr Dr. Weddeler"
 # duration

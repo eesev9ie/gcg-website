@@ -185,7 +185,7 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Kategorie", name: "category", widget: "string"}
+      - {label: "Themenbereiche", name: "categories_ag", widget: "string"}
       - label: "Leiter"
         name: "teacher"
         widget: "relation"
@@ -193,9 +193,10 @@ collections:
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
-      - {label: "Tag/Stunden", name: "duration", widget: "string"}
       - {label: "Dauer", name: "weekly", widget: "string"}
+      - {label: "Tag/Stunden", name: "duration", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
+      - {label: "Raum", name: "root", widget: "string"}
       - {label: "Anmeldelink", name: "apply_url", widget: "hidden", default: "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"}
       - {label: "Type", name: "type", widget: "hidden", default: "ganztagsangebote"}
       - {label: "Text", name: "body", widget: "markdown"}

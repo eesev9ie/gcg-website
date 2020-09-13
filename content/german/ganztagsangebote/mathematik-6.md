@@ -9,7 +9,7 @@ description : "Förderung für in Mathematik begabte Schüler."
 # course thumbnail
 image: "media/ganztagsangebote/mathematik.jpg"
 # taxonomy
-categories: ["Mathematik", "Naturwissenschaften"]
+categories_ag: ["Mathematik", "Naturwissenschaften"]
 # teacher
 teacher: "Herr Dr. Müller"
 # duration

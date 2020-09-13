@@ -11,7 +11,7 @@
 					</label>
 					{{ $categories := slice }}
 					{{ range .Data.Pages }}
-					{{ range .Params.Categories }}
+					{{ range .Params.Categories_ag }}
 					{{ $categories = $categories | append . }}
 					{{ end }}
 					{{ end }}
@@ -30,7 +30,7 @@
 			{{"<!-- portfolio item -->" | safeHTML}}
 			{{ range .Data.Pages }}
 			<div class="col-lg-4 shuffle-item"
-				data-groups="[{{range $index, $element:= .Params.Categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+				data-groups="[{{range $index, $element:= .Params.Categories_ag }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				{{ .Render "ganztagsangebote" }}
 			</div>
 			{{ end }}

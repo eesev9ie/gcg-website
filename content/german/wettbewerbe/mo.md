@@ -42,6 +42,11 @@ Die Schüler bearbeiten sowohl alte Mathematikolympiaden-Aufgaben, als auch unbe
 
 Unsere Schule ist seit der Gründung eine der erfolgreichsten Schulen in Sachsen-Anhalt.
 
-Die Erfolge unserer Schüler bei der Mathematikolympiade seit dem Jahr 20?? sind hier aufgelistet.
+Im Jahr 2020 haben unsere Schüler
 
- * [2020](/de/mo/2020/)
+* 3 von 9 ersten Preisen
+* 6 von 21 zweiten Preisen
+* 13 von 30 dritten Preisen
+* 11 von 39 Anerkennungspreisen
+
+erlangt.

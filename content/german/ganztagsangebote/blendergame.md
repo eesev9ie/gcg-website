@@ -9,7 +9,7 @@ description : "desc"
 # course thumbnail
 image: "media/ganztagsangebote/blender.png"
 # taxonomy
-categories: ["Digitalität und Technik"]
+categories_ag: ["Digitalität und Technik"]
 # teacher
 teacher: "Yves Bauer"
 # duration
