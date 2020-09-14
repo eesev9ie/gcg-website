@@ -9,11 +9,6 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://code.cdn.mozilla.net/fonts/fira.css");
-@font-face {
-  font-family: 'Fira Sans';
-  font-weight: normal;
-  font-style: normal; }
-
 body {
   line-height: 1.2;
   font-family: "Fira Sans", sans-serif;
@@ -456,10 +451,13 @@ textarea.form-control {
   object-fit: cover; }
 
 summary {
-  font-weight: bold;
+  font-weight: 900;
   margin: -.5em -.5em 0;
   padding: .5em;
-  font-size: 20px; }
+  font-size: 20px;
+  color: #1a1a37; }
+  summary.hover {
+    color: #ffbc3b; }
 
 details[open] {
   padding: .5em; }

@@ -32,6 +32,6 @@ Bei wir handelt es sich momentan hauptsächlich um:
 
 ---
 
-{{< element-item link="/de/cantorfora" title="Cantorfora" >}}
+{{< card link="/de/cantorfora" title="Cantorfora" >}}
 
 ---

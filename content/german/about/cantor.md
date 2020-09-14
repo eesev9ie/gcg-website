@@ -28,4 +28,4 @@ Georg Cantor gilt als der Begründer der Mengenlehre. Er kämpfte ein Leben lang
 
 # Auf den Spuren von Georg Cantor
 
-{{< element-item link="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2VXTW" title="Geo(rg)Caching" >}}
+{{< card link="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2VXTW" title="Geo(rg)Caching" >}}

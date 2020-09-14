@@ -1,12 +1,5 @@
 /*  typography */
 @import url('https://code.cdn.mozilla.net/fonts/fira.css');
-
-@font-face {
-  font-family: 'Fira Sans';
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   line-height: 1.2;
   font-family: $primary-font;

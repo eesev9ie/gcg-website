@@ -13,4 +13,4 @@ Wir schreiben den 15. März 2010, es ist 14.30 Uhr, das V. Cantorforum beginnt. 
 
 Maria Tannert, 2010
 
-{{< element-item link="/misc/cantorforum_5/flyer.pdf" title="Spendenflyer" >}}
+{{< card link="/misc/cantorforum_5/flyer.pdf" title="Spendenflyer" >}}

@@ -29,4 +29,4 @@ Wir haben für alle Schülerinnen und Schüler ein offenes Ohr und sind jederzei
 
 Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class="ti-email"></i>Mail</a> und auf <a href="https://www.facebook.com/srgcghalle/"><i class="ti-facebook"></i>Facebook</a> erreichbar.
 
-{{< element-item link="/de/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}
+{{< card link="/de/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}

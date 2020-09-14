@@ -406,10 +406,15 @@ textarea.form-control{
 }
 
 summary {
-    font-weight: bold;
+    font-weight: 900;
     margin: -.5em -.5em 0;
     padding: .5em;
     font-size: 20px;
+    color: $secondary-color;
+
+    &.hover {
+      color: $primary-color;
+    }
 
 }
 

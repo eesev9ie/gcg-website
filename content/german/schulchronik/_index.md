@@ -15,15 +15,15 @@ aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
 ## Statistische Daten
 
 <div class="row mb-5">
-    {{< element-item link="/de/abiturienten" title="Abiturienten">}}
-    {{< element-item link="/de/statistiken/abiturdurchschnitte" title="Abiturdurchschnitte">}}
-    {{< element-item link="/de/statistiken/schülerzahlen" title="Schülerzahlen">}}
-    {{< element-item link="/de/statistiken/mitarbeiterliste" title="Mitarbeiterliste">}}
-    {{< element-item link="/de/about/cantor/" title="Über Georg Cantor" >}}
-    {{< element-item link="/de/alumni-netzwerk" title="Alumninetzwerk" >}}
-    {{< element-item link="/de/about/chronologie" title="Chronologie" >}}
-    {{< element-item link="/de/about/traditionen" title="Traditionen" >}}
-    {{< element-item link="/de/chronisten" title="Chronistenteam" >}}
+    {{< card-small link="/de/abiturienten" title="Abiturienten">}}
+    {{< card-small link="/de/statistiken/abiturdurchschnitte" title="Abiturdurchschnitte">}}
+    {{< card-small link="/de/statistiken/schülerzahlen" title="Schülerzahlen">}}
+    {{< card-small link="/de/statistiken/mitarbeiterliste" title="Mitarbeiterliste">}}
+    {{< card-small link="/de/about/cantor/" title="Über Georg Cantor" >}}
+    {{< card-small link="/de/alumni-netzwerk" title="Alumninetzwerk" >}}
+    {{< card-small link="/de/about/chronologie" title="Chronologie" >}}
+    {{< card-small link="/de/about/traditionen" title="Traditionen" >}}
+    {{< card-small link="/de/chronisten" title="Chronistenteam" >}}
 </div>
 
 ---
