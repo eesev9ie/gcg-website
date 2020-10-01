@@ -30,7 +30,7 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 
 ---
 
-# 1989
+## 1989
 **Juli:** Die Spezialschule ist Austragungsort des Theorieteils der 21. internationalen Chemieolympiade
 
 **August:** Übernahme der rekonstruierten ehemaligen Kindereinrichtung „Mischka der Bär“ als Internat

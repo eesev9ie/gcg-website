@@ -20,9 +20,11 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
      preview: false
+    media_folder: '/static/media/people'
+    public_folder: '/media/people'
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "image", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
@@ -42,6 +44,8 @@ collections:
     slug: "{{slug}}"
     editor:
      preview: false
+    media_folder: '/static/media/blog'
+    public_folder: '/media/blog'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime"}
@@ -238,8 +242,8 @@ collections:
     folder: "content/german/schulchronik"
     filter: {field: "type", value: "schulchronik"}
     create: true
-    editor:
-      preview: false
+    #editor:
+      #preview: false
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
