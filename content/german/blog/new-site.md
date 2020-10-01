@@ -4,7 +4,7 @@ date: 2020-07-18T09:08:19.267Z
 draft: false
 bg_image: media/backgrounds/page-title.png
 description: Seit mehreren Tagen ist die neue Schulwebsite in Entwicklung.
-image: media/image.png
+image: /media/blog/image.png
 author: Denys Konovalov
 categories:
   - Digitalisierung
