@@ -80,6 +80,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: false
+    media_folder: '/static/media/teachers'
+    public_folder: '/media/teachers'
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
@@ -112,6 +114,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: false
+    media_folder: '/static/media/events'
+    public_folder: '/media/events'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "publishDate", widget: "datetime"}
@@ -131,6 +135,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: false
+    media_folder: '/static/media/forms'
+    public_folder: '/media/forms'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
@@ -159,6 +165,8 @@ collections:
     create: true
     editor:
       preview: false
+    media_folder: '/static/media/cantorpreis'
+    public_folder: '/media/cantorpreis'
     fields:
       - {label: "Jahr", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
@@ -182,6 +190,8 @@ collections:
     create: true
     editor:
       preview: false
+    media_folder: '/static/media/ganztagsangebote'
+    public_folder: '/media/ganztagsangebote'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
@@ -211,6 +221,8 @@ collections:
     create: true
     editor:
       preview: false
+    media_folder: '/static/media/notice'
+    public_folder: '/media/notice'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
@@ -226,6 +238,8 @@ collections:
     create: true
     editor:
       preview: false
+    media_folder: ['/static/media/contests', '/static/media/']
+    public_folder: ['/media/people/contests', '/media']
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
