@@ -20,17 +20,17 @@
             widget: "string"
         },
     ],
-    pattern: /{{< gallery dir=([a-zA-Z0-9]+) />}}/,
+    pattern: /{{< gallery dir="([a-zA-Z0-9]+)" />}}/,
     fromBlock: function(match) {
         return {
             username: dir[1],
         };
     },
     toBlock: function(obj) {
-        return `{{< gallery ${obj.dir} >}}`;
+        return `{{< gallery dir="${obj.dir}" />}}`;
     },
     toPreview: function(obj) {
-        return `{{< gallery ${obj.dir} >}}`;
+        return `{{< gallery dir="${obj.dir}" />}}`;
     },
 });
 </script>
