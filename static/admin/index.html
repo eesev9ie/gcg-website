@@ -14,11 +14,12 @@
   CMS.registerEditorComponent({
     id: "gallery",
     label: "Bildergallerie",
-    fields: {
+    fields: [{
             name: "dir",
             label: "Ordner",
             widget: "string"
         },
+    ],
     pattern: /{{< gallery dir="([a-zA-Z0-9]+)" >}}/,
     fromBlock: function(match) {
         return {
