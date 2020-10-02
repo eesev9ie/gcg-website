@@ -89,9 +89,9 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/teachers/image.png", required: false}
       - label: "Fachbereiche"
-        name: "interest"
+        name: "courses"
         widget: "list"
-        field: {label: "Fachbereich/Themenbereich", name: "interest", widget: "string"}
+        field: {label: "Fachbereich/Themenbereich", name: "course", widget: "string"}
       - {label: "Beschreibung", name: "bio", widget: "text"}
       - label: "Fächer/Arbeitsgemeinschaften"
         name: "interest"
