@@ -10,8 +10,28 @@
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
   <script>
-
-  CMS.registerPreviewStyle("/style.css");
+  CMS.registerPreviewStyle("https://eesev9ie.github.io/style.css");
+  CMS.registerEditorComponent({
+    id: "gallery",
+    label: "Bildergallerie",
+    fields: {
+            name: "dir",
+            label: "Ordner",
+            widget: "string"
+        },
+    pattern: /{{< gallery dir="([a-zA-Z0-9]+)" >}}/,
+    fromBlock: function(match) {
+        return {
+            username: dir[1],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< gallery ${obj.dir} >}}`;
+    },
+    toPreview: function(obj) {
+        return `{{< gallery ${obj.dir} >}}`;
+    },
+});
 </script>
 </body>
 </html>

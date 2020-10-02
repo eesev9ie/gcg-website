@@ -261,6 +261,8 @@ collections:
     create: true
     #editor:
       #preview: false
+    media_folder: '/static/media/schulchronik'
+    public_folder: '/media/schulchronik'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
@@ -275,6 +277,8 @@ collections:
     create: true
     editor:
       preview: false
+    media_folder: '/static/media/abiturienten'
+    public_folder: '/media/abiturienten'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
