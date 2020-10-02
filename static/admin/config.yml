@@ -238,8 +238,8 @@ collections:
     create: true
     editor:
       preview: false
-    media_folder: ['/static/media/contests', '/static/media/']
-    public_folder: ['/media/people/contests', '/media']
+    media_folder: '/static/media/contests'
+    public_folder: '/media/people/contests'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
