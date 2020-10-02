@@ -88,7 +88,10 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/teachers/image.png", required: false}
-      - {label: "Fachbereich", name: "course", widget: "string", hint: "Bei Ganztagsangeboten Ganztagsangebote/Bereich"}
+      - label: "Fachbereiche"
+        name: "interest"
+        widget: "list"
+        field: {label: "Fachbereich/Themenbereich", name: "interest", widget: "string"}
       - {label: "Beschreibung", name: "bio", widget: "text"}
       - label: "Fächer/Arbeitsgemeinschaften"
         name: "interest"
