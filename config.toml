@@ -123,6 +123,12 @@ hasChildren = true
   URL = "https://moodle.bildung-lsa.de/gcg"
   weight = 2
 
+  [[menu.main]]
+  parent = "Digitale Angebote"
+  name = "Digitale führung durch das Schulhaus"
+  URL = "vr"
+  weight = 3
+
 [[menu.main]]
 name = "Für Schüler und Eltern"
 weight = 3
@@ -167,7 +173,6 @@ weight = 4
 name = "Kontakt"
 URL = "contact"
 weight = 5
-
 
 # footer menu
 

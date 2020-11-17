@@ -127,11 +127,15 @@ about:
   * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
   * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n
   * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
-  * Weitere Informationen gibt es im [passenden Blogbeitrag](/de/blog/new-site/)"
+  * Weitere Informationen gibt es im [passenden Blogbeitrag](/de/blog/new-site/)
+
+  ## Tag der offenen Tür
+  
+  Da in diesem Schuljahr kein gewöhnlicher Tag der offenen Tür stattfinden kann, bieten wir hiermit eine digitale Führung durch das Schulhaus an."
   button:
     enable : true
-    label : "Über die Schule"
-    link : "about"
+    label : "Digitale Führung durch das Schulhaus"
+    link : "vr"
 
 
 ############################# Course ################################
