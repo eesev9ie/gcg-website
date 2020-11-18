@@ -34,6 +34,8 @@ link = "plugins/animate/animate.css"
 link = "plugins/venobox/venobox.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "https://code.cdn.mozilla.net/fonts/fira.css"
 
 # JS Plugins
 [[params.plugins.js]]

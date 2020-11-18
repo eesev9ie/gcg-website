@@ -253,7 +253,7 @@
 
     // Create image element.
     var icon = document.createElement('img');
-    icon.src = 'img/link.png';
+    icon.src = 'img/up-circle.svg';
     icon.classList.add('link-hotspot-icon');
 
     // Set rotation transform.
@@ -299,7 +299,7 @@
     var iconWrapper = document.createElement('div');
     iconWrapper.classList.add('info-hotspot-icon-wrapper');
     var icon = document.createElement('img');
-    icon.src = 'img/info.png';
+    icon.src = 'img/info.svg';
     icon.classList.add('info-hotspot-icon');
     iconWrapper.appendChild(icon);
 
@@ -315,7 +315,7 @@
     var closeWrapper = document.createElement('div');
     closeWrapper.classList.add('info-hotspot-close-wrapper');
     var closeIcon = document.createElement('img');
-    closeIcon.src = 'img/close.png';
+    closeIcon.src = 'img/close.svg';
     closeIcon.classList.add('info-hotspot-close-icon');
     closeWrapper.appendChild(closeIcon);
 
