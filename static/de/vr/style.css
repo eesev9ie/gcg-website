@@ -125,10 +125,10 @@ body.fullscreen-enabled #fullscreenToggle {
 
 #fullscreenToggle .icon {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 30px;
-  height: 30px;
+  top: 7.25px;
+  right: 7.25px;
+  width: 25px;
+  height: 25px;
 }
 
 .mobile #fullscreenToggle .icon {
@@ -488,7 +488,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover {
   width: 560px;
-  border-radius: 5px;
+  border-radius: 25px;
   -webkit-transition: width 0.3s ease-in-out,
                       border-radius 0.3s ease-in-out;
   transition: width 0.3s ease-in-out,
@@ -498,7 +498,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .desktop .info-hotspot.visible .info-hotspot-header,
 .desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
   width: 560px;
-  border-radius: 5px;
+  border-radius: 25px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -519,9 +519,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .info-hotspot .info-hotspot-icon {
-  width: 90%;
-  height: 90%;
-  margin: 5%;
+  width: 60%;
+  height: 60%;
+  margin: 20%;
 }
 
 .info-hotspot .info-hotspot-title-wrapper {
@@ -571,7 +571,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 0;
   height: 40px;
   width: 40px;
-  border-top-right-radius: 5px;
+  border-radius: 20px;
+  border-bottom-right-radius: 20px;
   background-color: #ffbc3b;
   visibility: hidden;
   -ms-transform: perspective(200px) rotateY(90deg);
@@ -588,6 +589,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               -webkit-transform 0.3s 0.3s,
               transform 0.3s 0.3s,
               visibility 0s 0.6s;
+  margin-left: 10px;
 }
 
 .desktop .info-hotspot.visible .info-hotspot-close-wrapper {
@@ -615,13 +617,13 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   position: absolute;
   width: 560px;
   height: auto;
-  max-height: 200px;
+  max-height: 400px;
   top: 40px;
   left: 0;
   padding: 10px;
   background-color: #1a1a37;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   overflow-y: auto;
   visibility: hidden;
   /* rotate(90deg) causes transition flicker on Firefox 58 */
@@ -825,10 +827,10 @@ body.view-control-buttons .viewControlButton {
 
 .viewControlButton .icon {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 30px;
-  height: 30px;
+  top: 7.25px;
+  right: 7.25px;
+  width: 25px;
+  height: 25px;
 }
 
 /* Center is at margin-left: -20px */
