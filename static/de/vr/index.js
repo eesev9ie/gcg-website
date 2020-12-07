@@ -140,10 +140,10 @@
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
 
-  // Start with the scene list open on desktop.
-  if (!document.body.classList.contains('mobile')) {
-    showSceneList();
-  }
+  // // Start with the scene list open on desktop.
+  // if (!document.body.classList.contains('mobile')) {
+  //   showSceneList();
+  // }
 
   // Set handler for scene switch.
   scenes.forEach(function(scene) {
@@ -322,7 +322,7 @@
     // Construct header element.
     header.appendChild(iconWrapper);
     header.appendChild(titleWrapper);
-    header.appendChild(closeWrapper);
+    // header.appendChild(closeWrapper);
 
     // Create text element.
     var text = document.createElement('div');
@@ -331,11 +331,14 @@
 
     // Place header and text into wrapper element.
     wrapper.appendChild(header);
-    wrapper.appendChild(text);
+    // wrapper.appendChild(text);
 
     // Create a modal for the hotspot content to appear on mobile mode.
     var modal = document.createElement('div');
     modal.innerHTML = wrapper.innerHTML;
+    modal.querySelector('.info-hotspot-header').appendChild(closeWrapper);
+    modal.appendChild(text);
+
     modal.classList.add('info-hotspot-modal');
     document.body.appendChild(modal);
 

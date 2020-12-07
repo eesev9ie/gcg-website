@@ -28,6 +28,10 @@ html, body {
   color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: : "Fira Sans Heavy", sans-serif;
+}
+
 a, a:hover, a:active, a:visited {
   text-decoration: none;
   color: inherit;
@@ -458,20 +462,10 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   transition: opacity 0.2s 0.2s;
 }
 
-.no-touch .info-hotspot:hover {
-  opacity: 1;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
-}
-
-.info-hotspot.visible {
-  opacity: 1
-}
-
 .info-hotspot .info-hotspot-header {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
   background-color: #1a1a37;
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
@@ -480,28 +474,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               border-radius 0.3s ease-in-out 0.5s;
 }
 
-.mobile .info-hotspot .info-hotspot-header {
-  width: 50px;
-  height: 50px;
+.info-hotspot.visible .info-hotspot-header,
+.no-touch .info-hotspot.visible .info-hotspot-header:hover,
+.no-touch .info-hotspot .info-hotspot-header:hover {
+  width: 300px;
   border-radius: 25px;
-}
-
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover {
-  width: 560px;
-  border-radius: 25px;
-  -webkit-transition: width 0.3s ease-in-out,
-                      border-radius 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out,
-              border-radius 0.3s ease-in-out;
-}
-
-.desktop .info-hotspot.visible .info-hotspot-header,
-.desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
-  width: 560px;
-  border-radius: 25px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   -webkit-transition: width 0.3s ease-in-out,
                       border-radius 0.3s ease-in-out;
   transition: width 0.3s ease-in-out,
@@ -509,11 +486,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .info-hotspot .info-hotspot-icon-wrapper {
-  width: 40px;
-  height: 40px;
-}
-
-.mobile .info-hotspot .info-hotspot-icon-wrapper {
   width: 50px;
   height: 50px;
 }
@@ -529,7 +501,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   left: 40px;
   top: 0;
   width: 0;
-  height: 40px;
+  height: 50px;
   padding: 0;
   overflow: hidden;
   -webkit-transition: width 0s 0.4s,
@@ -538,9 +510,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               padding 0s 0.4s;
 }
 
-.desktop .info-hotspot.visible .info-hotspot-title-wrapper,
-.desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
-  width: 520px;
+.info-hotspot.visible .info-hotspot-title-wrapper,
+.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
+  width: 260px;
   padding: 0 5px;
   -webkit-transition: width 0s 0.4s,
                       padding 0s 0.4s;
@@ -564,110 +536,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -ms-user-select: text;
   user-select: text;
 }
-
-.info-hotspot .info-hotspot-close-wrapper {
-  position: absolute;
-  left: 560px;
-  top: 0;
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #ffbc3b;
-  visibility: hidden;
-  -ms-transform: perspective(200px) rotateY(90deg);
-  -webkit-transform: perspective(200px) rotateY(90deg);
-  transform: perspective(200px) rotateY(90deg);
-  -ms-transform-origin: 0 50% 0;
-  -webkit-transform-origin: 0 50% 0;
-  transform-origin: 0 50% 0;
-  -webkit-transition: -ms-transform 0.3s 0.3s,
-                      -webkit-transform 0.3s 0.3s,
-                      transform 0.3s 0.3s,
-                      visibility 0s 0.6s;
-  transition: -ms-transform 0.3s 0.3s,
-              -webkit-transform 0.3s 0.3s,
-              transform 0.3s 0.3s,
-              visibility 0s 0.6s;
-  margin-left: 10px;
-}
-
-.desktop .info-hotspot.visible .info-hotspot-close-wrapper {
-  visibility: visible;
-  -ms-transform: perspective(200px) rotateY(0deg);
-  -webkit-transform: perspective(200px) rotateY(0deg);
-  transform: perspective(200px) rotateY(0deg);
-  -webkit-transition: -ms-transform 0.3s,
-                      -webkit-transform 0.3s,
-                      transform 0.3s,
-                      visibility 0s 0s;
-  transition: -ms-transform 0.3s,
-              -webkit-transform 0.3s,
-              transform 0.3s,
-              visibility 0s 0s;
-}
-
-.info-hotspot .info-hotspot-close-icon {
-  width: 70%;
-  height: 70%;
-  margin: 15%;
-}
-
-.info-hotspot .info-hotspot-text {
-  position: absolute;
-  width: 560px;
-  height: auto;
-  max-height: 400px;
-  top: 40px;
-  left: 0;
-  padding: 10px;
-  background-color: #1a1a37;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  overflow-y: auto;
-  visibility: hidden;
-  /* rotate(90deg) causes transition flicker on Firefox 58 */
-  -ms-transform: perspective(200px) rotateX(-89.999deg);
-  -webkit-transform: perspective(200px) rotateX(-89.999deg);
-  transform: perspective(200px) rotateX(-89.999deg);
-  -ms-transform-origin: 50% 0 0;
-  -webkit-transform-origin: 50% 0 0;
-  transform-origin: 50% 0 0;
-  -webkit-transition: -ms-transform 0.3s,
-                      -webkit-transform 0.3s,
-                      transform 0.3s,
-                      visibility 0s 0.3s;
-  transition: -ms-transform 0.3s,
-              -webkit-transform 0.3s,
-              transform 0.3s,
-              visibility 0s 0.3s;
-
-  -moz-user-select: text;
-  -webkit-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-}
-
-.desktop .info-hotspot.visible .info-hotspot-text {
-  visibility: visible;
-  -ms-transform: perspective(200px) rotateX(0deg);
-  -webkit-transform: perspective(200px) rotateX(0deg);
-  transform: perspective(200px) rotateX(0deg);
-  -webkit-transition: -ms-transform 0.3s 0.3s,
-                      -webkit-transform 0.3s 0.3s,
-                      transform 0.3s 0.3s,
-                      visibility 0s 0s;
-  transition: -ms-transform 0.3s 0.3s,
-              -webkit-transform 0.3s 0.3s,
-              transform 0.3s 0.3s,
-              visibility 0s 0s;
-}
-
 /* Info hotspot modal */
-
-.desktop .info-hotspot-modal {
-  display: none;
-}
 
 .info-hotspot-modal {
   top: 0;
@@ -677,7 +546,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 100%;
   overflow: hidden;
   z-index: 11000 !important;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,0.5);
   line-height: 1.2em;
   opacity: 0;
   visibility: hidden;
@@ -703,11 +572,13 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 10px;
   width: auto;
   height: 50px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  margin: 20px;
+  background-color: #1a1a37;
+  /* background-color: rgba(103,115,131,0.8); */
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out 0.2s;
   transition: opacity 0.3s ease-in-out 0.2s;
+  border-radius: 25px;
 }
 
 .info-hotspot-modal.visible .info-hotspot-header {
@@ -722,9 +593,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .info-hotspot-modal .info-hotspot-icon {
-  width: 90%;
-  height: 90%;
-  margin: 5%;
+  width: 60%;
+  height: 60%;
+  margin: 20%;
 }
 
 .info-hotspot-modal .info-hotspot-title-wrapper {
@@ -752,6 +623,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+  font-family: "Fira Sans Heavy", sans-serif;
 }
 
 .info-hotspot-modal .info-hotspot-close-wrapper {
@@ -760,9 +632,10 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 0;
   width: 50px;
   height: 50px;
-  background-color: rgb(78,88,104);
-  background-color: rgba(78,88,104,0.8);
-  cursor: pointer;
+  background-color: #ffbc3b;
+  border-radius: 50%;
+  margin-left: 20px
+  /* background-color: rgba(78,88,104,0.8); */
 }
 
 .info-hotspot-modal .info-hotspot-close-icon {
@@ -773,13 +646,13 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot-modal .info-hotspot-text {
   position: absolute;
-  top: 110px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  padding: 10px;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  top: 150px;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  padding: 30px;
+  background-color: #1a1a37;
+  /* background-color: rgba(58,68,84,0.8); */
   overflow-y: auto;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -789,6 +662,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+  border-radius: 25px;
 }
 
 .info-hotspot-modal.visible .info-hotspot-text {
