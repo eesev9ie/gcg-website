@@ -2,7 +2,7 @@
   <!-- <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}"> -->
   <div class="card-body">
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
+    <!-- <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p> -->
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "show_more"}}</a>
   </div>
 </div>
