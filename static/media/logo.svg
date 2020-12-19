@@ -8,12 +8,15 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
-   width="1733.0448mm"
+   width="1289.4308mm"
    height="500mm"
    version="1.1"
-   viewBox="0 0 1733.0449 500"
+   viewBox="0 0 1289.4309 500"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/denys/github/gcg-website/static/media/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      fit-margin-bottom="0"
      fit-margin-right="0"
@@ -29,14 +32,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1080"
      id="namedview13"
      showgrid="false"
      inkscape:zoom="0.09915893"
-     inkscape:cx="4335.7718"
-     inkscape:cy="49.522765"
+     inkscape:cx="4335.7716"
+     inkscape:cy="1259.7012"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -77,6 +80,6 @@
        xml:space="preserve"><tspan
          x="-576.46289"
          y="601.60773"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Heavy';shape-inside:url(#rect101);fill:#ffffff;fill-opacity:1">GCG</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Heavy';shape-inside:url(#rect101);fill:#ffffff;fill-opacity:1">CG</tspan></tspan></text>
   </g>
 </svg>
